@@ -23855,7 +23855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part-Nr" "SA 56-11 RT Alternative: SC 39-11 GN"
+		(property "Part-Nr" "SA 56-11 RT"
 			(at 44.45 81.28 0)
 			(effects
 				(font
