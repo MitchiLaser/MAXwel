@@ -363,7 +363,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0b23fbaf-a18f-4815-99bd-1e0821827f05")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -587,7 +587,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7f2ef6d7-9f2f-45ca-9ed1-3d7b6012e7a2")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -798,7 +798,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e944ba14-abb0-497d-b2ff-dd2abd09db60")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -1010,7 +1010,7 @@
 		(property ki_fp_filters "SW*Wuerth*WS*SLTV*10x2.5x6.4*P2.54mm*")
 		(path "/e362b674-22c6-42ab-95d4-79cd27b97fb8")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -6 -3)
@@ -1187,7 +1187,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/168728e1-85fe-4e16-82b3-d85c7c44441f")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -1399,7 +1399,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/81ea4bb3-8700-48e3-8fc5-2d4db6a4ba0b")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.86 0.96)
@@ -1632,7 +1632,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0eff7512-ab60-48ea-be66-8176cbf4fad1")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -1856,7 +1856,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/511fc3bd-63be-49f7-93a1-63bad0823446")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -2067,7 +2067,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f117b02e-3419-4d6f-978e-512660cc6856")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -2291,7 +2291,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6d0a0fba-a1e6-4c1e-ad34-14a4a591fcc9")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -2515,7 +2515,7 @@
 		(property ki_fp_filters "Oscillator*SMD*EuroQuartz*XO53*5.0x3.2mm*")
 		(path "/25e69274-c473-48da-a439-b9d31579b05d")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -2918,7 +2918,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/372f0c82-725c-4080-ad3f-226c604b8bc9")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1 -0.625)
@@ -3129,7 +3129,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/18f2dc7a-5510-4f27-81db-1655c76c3bf1")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -3353,7 +3353,7 @@
 		(property ki_fp_filters "Oscillator*SMD*EuroQuartz*XO53*5.0x3.2mm*")
 		(path "/18c6d4aa-1f54-4208-af9a-8ade2a9b5acf")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -3756,7 +3756,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3b234904-dc5e-4306-8100-4e5b542f2fa6")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -3967,7 +3967,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7b9e5a49-7fe5-4982-9ba6-e5d204024eee")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -4179,7 +4179,7 @@
 		(property ki_fp_filters "SW*Wuerth*WS*SLTV*10x2.5x6.4*P2.54mm*")
 		(path "/f4c1071e-3cb4-4c78-800c-d3d4a22a41ed")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -6 -3)
@@ -4357,7 +4357,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/3f4a8ddb-2070-473a-aea9-cecf7811917b")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 0.6)
@@ -4590,7 +4590,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2574380f-9309-4902-bec2-028b8036c508")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1 -0.625)
@@ -4801,7 +4801,7 @@
 		)
 		(path "/d9febae9-9a1b-4a5a-bcec-42abbeef2823")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 12.36 8.61)
@@ -5051,7 +5051,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4ed9c585-fe02-4450-a7b0-07570c8847b0")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1 -0.625)
@@ -5276,7 +5276,7 @@
 		(property ki_fp_filters "D1X8K*")
 		(path "/d320e241-b54b-46a9-9779-f05e39c0874a")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 17.23 -1.28)
@@ -5713,7 +5713,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3c58f938-ce24-4db4-8906-23d4709a1976")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -5924,7 +5924,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a157490b-43c9-42c5-8b58-223f4a48b44f")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -6135,7 +6135,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/59efbab4-8596-45b4-9cc3-7ff303d3d975")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -6346,7 +6346,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/45dffb4f-015e-4828-aaf4-ee1504916fe0")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -6557,7 +6557,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4c57685b-49ad-4a69-b8b8-548c1f940b24")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -6768,7 +6768,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c474f043-053c-499f-a7cf-d182567957f1")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -6979,7 +6979,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/51cafaaa-9fbd-4877-a54f-c2298f45cf23")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -7190,7 +7190,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/62eeec47-e187-4813-af52-1e041f0d31d9")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -7414,7 +7414,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/77451565-6a5c-44bb-bd5f-9eaa2083ae8a")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -7626,7 +7626,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/dfb0d9ad-1df4-4cbf-a880-c560e20ce81a")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 0.6)
@@ -7859,7 +7859,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8334fa35-369e-444a-be35-469549e676f2")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -8083,7 +8083,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/218c6aa1-79d9-45c6-a5e8-4141c1baa9f3")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -8294,7 +8294,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/58fa776b-e9f1-4ae8-8c3d-16dede415a28")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1 -0.625)
@@ -8506,7 +8506,7 @@
 		(property ki_fp_filters "SW*Wuerth*WS*SLTV*10x2.5x6.4*P2.54mm*")
 		(path "/eebf3fc1-090d-4ed1-97bc-ca2f3e3bc06c")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -6 -3)
@@ -8683,7 +8683,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2792ed20-e0a2-46fb-8f48-979820ed8e95")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -8894,7 +8894,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/324844ee-4f6d-44f1-9203-a18879a78361")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -9106,7 +9106,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/358a463d-adfe-4965-9b1a-e003700a739d")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 0.6)
@@ -9352,7 +9352,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9eba14c5-8e0c-43c5-9231-e72894a7be00")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -9564,7 +9564,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/1bcda38e-c203-40be-80ac-0ba4665ed7a4")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 0.6)
@@ -9798,7 +9798,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/65edd11c-0141-4545-b06e-063e450590e4")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 0.6)
@@ -10031,7 +10031,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/19dfdf1c-80e5-4019-8859-7a721b679fc5")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -10255,7 +10255,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4219f0eb-daec-467f-aaa6-444aec4aeb77")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.804775 -1.475)
@@ -11611,7 +11611,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3a850b34-7c61-4b2a-ab92-341e035a72d4")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1 -0.625)
@@ -11822,7 +11822,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6eaa62ba-5a76-4618-bfc7-cca7ba5ce457")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1 -0.625)
@@ -12034,7 +12034,7 @@
 		(property ki_fp_filters "SW*Wuerth*WS*SLTV*10x2.5x6.4*P2.54mm*")
 		(path "/bfdde954-7230-4ef1-a882-0f31abc9a0c9")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -6 -3)
@@ -12211,7 +12211,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/999af4f2-d3e3-4605-9f28-dd7e42b02fa8")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1 -0.625)
@@ -12435,7 +12435,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/45f10cf4-33a7-49c7-af36-c5b3652e1463")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -12646,7 +12646,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a3325b79-0cb5-4f05-9a93-3fe9782becd1")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -12870,7 +12870,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/856d3f6b-4a0d-47f7-b549-69787f5fb835")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -13081,7 +13081,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/710a05a7-23ab-4dd8-954a-2d7514018709")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 0.625)
@@ -13292,7 +13292,7 @@
 		)
 		(path "/4ac9d5d6-c201-4436-83a0-56903976e149")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.77 -1.97)
@@ -13654,7 +13654,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8b86e35f-8e03-4357-8bc0-fecc76911b33")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -13878,7 +13878,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fd155e08-9cb6-42c3-8548-edb6ebf03d20")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -14090,7 +14090,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/033ade51-3e1a-418a-8f5f-8068f7c49319")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 0.6)
@@ -14323,7 +14323,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/bccbb2ad-bf71-4202-9d48-8859a37046c4")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -14534,7 +14534,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/04194a94-e0ed-432c-8c52-0f28072a1682")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -14758,7 +14758,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a6fa6976-bf03-4304-b9b0-6e635123bef7")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -14969,7 +14969,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c7e09e17-65cb-4dfd-b2d0-3eebd24b6ebb")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -15180,7 +15180,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/d135a162-c74e-4c5e-ae01-c4e4ae83689e")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 -0.96)
@@ -15414,7 +15414,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/f7bd6e96-62fd-4f09-9907-7517baaf33db")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 0.6)
@@ -15661,7 +15661,7 @@
 		(property ki_fp_filters "D1X8K*")
 		(path "/9372134d-5176-45e3-9ee7-1ea468d7d9ed")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 17.23 -1.28)
@@ -16098,7 +16098,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6cf7703e-6854-44ea-aa76-07d4ec17abd0")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -16309,7 +16309,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/1b6b8ccb-5ec0-4aeb-ad79-5e01f598072b")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1 -0.625)
@@ -16533,7 +16533,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/525d8b37-6ed0-4515-821a-179532c468cf")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -16757,7 +16757,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a03e3af0-2363-4b31-a9af-78a903afd1a3")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -16968,7 +16968,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b040e9e8-23d5-427d-b756-633c9445b7c0")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -17192,7 +17192,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1f63a883-a94d-4472-9e93-62ccbf6d29b9")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -17417,7 +17417,7 @@
 		(property ki_fp_filters "BarrelJack*")
 		(path "/d522df3f-a9b5-435a-97b6-5503dcef642b")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.05 -4.8)
@@ -17813,7 +17813,7 @@
 		(property ki_fp_filters "SW*Wuerth*WS*SLTV*10x2.5x6.4*P2.54mm*")
 		(path "/07f72d14-1ad2-43e3-ac93-cdaf55cf8ce8")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -6 -3)
@@ -17990,7 +17990,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d694cfaf-292f-43d5-acbf-5a50c9c2904e")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1 -0.625)
@@ -18201,7 +18201,7 @@
 		)
 		(path "/d75d57a1-e744-4508-baea-d3477cebd814")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 12.36 8.61)
@@ -18464,7 +18464,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f1ca7ea4-43ae-4f83-b3a2-0e7e9892e74a")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -18676,7 +18676,7 @@
 		(property ki_fp_filters "SW*Wuerth*WS*SLTV*10x2.5x6.4*P2.54mm*")
 		(path "/0ed59673-f63a-42b1-aaa5-68496f8faf9a")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -6 -3)
@@ -18853,7 +18853,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6607938c-6d4a-44b1-b79f-87d4a6d153bb")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -19064,7 +19064,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6d5c0d57-724e-412d-b98d-eb61119c0bdd")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -19276,7 +19276,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/4e0bd759-5c03-4bf2-8cb9-be7a982c73ab")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.86 0.96)
@@ -19509,7 +19509,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9c236b4e-c3a3-4c88-b0f9-38153a739664")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -19720,7 +19720,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b8f74db0-c61b-4da8-9a2b-ab0fd2868852")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -19944,7 +19944,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ca89b15e-1bf3-4d8a-a38a-45daa29dc787")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -20169,7 +20169,7 @@
 		(property ki_fp_filters "D1X8K*")
 		(path "/717d1bed-427a-491f-9b9f-7d8ba2a31dd0")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 17.23 -1.28)
@@ -20593,7 +20593,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a5275453-f95c-44f2-ac3d-2b56a5dad2c5")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -20805,7 +20805,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/22ec9a9a-074b-4fc2-98ae-7650fa999761")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.83 15.37)
@@ -21342,7 +21342,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0e3d27ca-67c7-454f-8654-236bdae45bdd")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -21554,7 +21554,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/87b93709-c28e-4d66-ae37-01278f0011b1")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.86 0.96)
@@ -21800,7 +21800,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/06ae7c84-4158-4e05-a41c-750e5035bbbe")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -22011,7 +22011,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/bde2d64d-4ecf-4a29-b097-9ec8c0d2c88f")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -22236,7 +22236,7 @@
 		(property ki_fp_filters "D1X8K*")
 		(path "/20642e03-c039-452b-bdc9-d9a2272ccb66")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 17.23 -1.28)
@@ -22660,7 +22660,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cc29181a-682e-48c5-9123-1de7593d2e58")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -22884,7 +22884,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3f72aced-1eff-4b4c-8713-ac19c6839f3b")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -23108,7 +23108,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d3179802-dbe8-41db-9a95-9cb2f31418fe")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -23332,7 +23332,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8f711918-ffd8-4b1f-9ec0-d7bbbfac54a4")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -23543,7 +23543,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/1eae19f6-9340-43a1-b2e2-5533207b4b7d")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -23767,7 +23767,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/442e479a-0464-4682-a318-b9698cb6d2c1")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -23978,7 +23978,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d0bee0ef-b127-44c8-8899-21c7da3c83e6")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -24189,7 +24189,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7ad14efc-d904-49f7-b097-235261c98fc9")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -24400,7 +24400,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cc8f7bd8-1f1b-4a27-86c0-5902fd1f23a9")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1 -0.625)
@@ -24611,7 +24611,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9c74bc2c-4399-45a6-9780-1f71a62e45f8")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1 -0.625)
@@ -24835,7 +24835,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/93c6112d-7271-4ec9-ab90-14bbe19e032d")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -25046,7 +25046,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/91897f94-8eb2-4894-a80a-0deecc0f5003")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -25257,7 +25257,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2af1ecf8-41ba-4b0d-8cd2-3138aa8fc723")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -25468,7 +25468,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/1dfde96b-09c1-4e52-baeb-1232e7750f6b")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -25692,7 +25692,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/22a806d1-21b9-4a61-a8f5-a443347788c1")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -25903,7 +25903,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9dddcd93-4fb4-482c-8926-6fe0ff225d29")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1 -0.625)
@@ -26114,7 +26114,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cbe56e4a-3905-40e2-8023-6b0ef172f212")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -26338,7 +26338,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6afca84e-09f8-49e5-a897-b8ea44540c31")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -26562,7 +26562,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/288f9a4a-eeea-4d10-ab56-2db328545735")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -26773,7 +26773,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c5697887-4309-48f5-8ea8-e8b9888e1b20")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -26997,7 +26997,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/18e58661-7c46-48c1-b801-a257dd27dc70")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -27209,7 +27209,7 @@
 		(property ki_fp_filters "SW*Wuerth*WS*SLTV*10x2.5x6.4*P2.54mm*")
 		(path "/6f2006cc-d45f-46c6-be87-f1be0e947740")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -6 -3)
@@ -27386,7 +27386,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2b5034c3-2fe7-45d4-9092-0017f5094e93")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -27598,7 +27598,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/50c9b22e-cbf0-4f18-a999-f282bc4fde1e")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.27 -1.27)
@@ -29835,7 +29835,7 @@
 		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/44f04bb9-2b1c-4546-b3d8-a72db2319bd5")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.91 3.41)
@@ -30123,7 +30123,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/97e946a8-7484-450d-affc-d9fad4cbfc80")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -30334,7 +30334,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a005afe2-0bbf-49d6-be0f-d8ddcd4e5d75")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -30545,7 +30545,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/37d5a3a7-0a2a-46f3-aade-3830dbc49e02")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -30756,7 +30756,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/bb78358c-e7ca-4653-8b5c-c859c0a1ea59")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -30980,7 +30980,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/40077199-7c88-48e0-9c0c-9c1f657126aa")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -31192,7 +31192,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/65af1419-68f6-4b80-90e1-2ffd2ded4316")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.86 0.96)
@@ -31438,7 +31438,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/dbcaf991-ca16-43a5-8df3-2a49e1836e73")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -31649,7 +31649,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1be1853f-c9ca-4258-a580-d3327be5a192")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -31873,7 +31873,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/800215fe-8492-4465-b6eb-849bd4000d21")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -32097,7 +32097,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/34101800-28b0-4e83-9a37-46095051c7c8")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -32308,7 +32308,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ccf0500b-7f47-45c3-9d09-b53be32e8f50")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -32519,7 +32519,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/299821eb-97f0-4ecb-af27-a2e6e25d8635")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -32730,7 +32730,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ae78c2ca-5329-4f49-bfc1-cc0d2e43b51b")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -32941,7 +32941,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e2efadf3-f2ce-4079-be29-5c998be0d64d")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -33152,7 +33152,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6ba4c858-3cff-438a-a0cc-c87393236be4")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1 -0.625)
@@ -33364,7 +33364,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/c4a93ec7-b846-4ada-bab8-ffb077f638ca")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.86 0.96)
@@ -33597,7 +33597,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fd81fa49-6fad-4409-80ea-6d4931fd5f0e")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -33808,7 +33808,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5b05e47f-309e-4838-b6a0-5c8747c004a0")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -34020,7 +34020,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/3249011d-264d-4691-a6d1-9b38e7557bd4")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 0.6)
@@ -34253,7 +34253,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4fa697d7-e790-41bd-b189-6b72983b9e37")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -34477,7 +34477,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8c5ff5b1-02c3-4385-942a-dea83d0f2fc6")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -34688,7 +34688,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d3b90096-b7dc-4324-968e-178d254c0e50")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -34912,7 +34912,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9d0b1892-0b05-493d-bfae-950226d28ebe")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -35136,7 +35136,7 @@
 		(property ki_fp_filters "*QFP*P0.5mm*")
 		(path "/27514b4f-c064-44b6-b493-b2b37ad317d8")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7.11 -7.11)
@@ -36611,7 +36611,7 @@
 		)
 		(path "/532bc0a9-d9fc-46e2-a3c6-fadee2f0552b")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 12.36 8.61)
@@ -36861,7 +36861,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/81dba4c5-8c06-4f75-92c0-36ffcc8d8658")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -37085,7 +37085,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5c9fd63d-d90e-4c6b-9ce7-19eff665eb3b")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -37296,7 +37296,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c77207d3-5d72-47e0-8285-ff903974b551")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -37508,7 +37508,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/64de6e64-838e-4f22-9db8-005975a7cd1d")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.86 0.96)
@@ -37741,7 +37741,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d73e3046-adb6-4c5e-b101-ad0493e213a9")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -37953,7 +37953,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/6f141a37-a21a-46da-98b1-fc0e8f9af107")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.86 0.96)
@@ -38186,7 +38186,7 @@
 		)
 		(path "/97c02b16-63ee-4b4b-853e-3992cb430a40")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 12.36 8.61)
@@ -38437,7 +38437,7 @@
 		(property ki_fp_filters "SW*Wuerth*WS*SLTV*10x2.5x6.4*P2.54mm*")
 		(path "/38a0c0de-0edf-462b-8c1e-5db650023c61")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -6 -3)
@@ -38615,7 +38615,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/72d65331-115c-4d0b-87a0-123cccab1895")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.86 0.96)
@@ -38848,7 +38848,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a1c9c3cd-4ab6-471d-bdf5-a5e737f4cafd")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1 -0.625)
@@ -39059,7 +39059,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8e6b0461-765f-4a33-ae72-cb2d3d46e1f5")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -39283,7 +39283,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a49319f0-f178-4398-b939-cec2fbf5dd12")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -39507,7 +39507,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0067f95e-d797-4303-8ce4-063024c652a6")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -39731,7 +39731,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/52572922-c918-4246-89f1-023e9cdeed59")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -39942,7 +39942,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/1468dbf0-545f-4efc-9901-383990952c48")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 0.625)
@@ -40153,7 +40153,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/bb7625a7-b3b9-4fad-b12b-b9f0d364470e")
 		(sheetname "Stammblatt")
-		(sheetfile "MAXwell.kicad_sch")
+		(sheetfile "MAXwel.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -40307,7 +40307,7 @@
 		(layer "Edge.Cuts")
 		(uuid "4580b5ed-cdc4-4087-89d5-f0a598b146f5")
 	)
-	(gr_text "MAXwell FPGA Board\nMichael Hohenstein"
+	(gr_text "MAXwel FPGA Board\nMichael Hohenstein"
 		(at 142.24 101.6 0)
 		(layer "B.SilkS")
 		(uuid "5f829542-c37b-4aa3-8973-0fd812ade014")

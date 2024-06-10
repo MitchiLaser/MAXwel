@@ -443,7 +443,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MAXwell.kicad_pro",
+    "filename": "MAXwel.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -480,7 +480,7 @@
       "netlist": "./",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "../../../../MAXwell.dsn",
+      "specctra_dsn": "../../../../MAXwel.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
