@@ -2,7 +2,6 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-
 entity Overlay is
 	generic(
 		Num_Luts : positive := 2
@@ -26,11 +25,11 @@ begin
 		port map(
 			Inputs => Button(1 downto 0),
 			Config => Switch(3 downto 0),
-			FF_enable => Switch(2),
+			FF_enable => Switch(4),
 			FF_clock => clock,
 			Output => lc1_out
 		);
-			
+
 	-- The following line is just used to test the lut and the clock constraints
 	LED_Red <= (0 => not(clock),
 					1 => not(clock_baud),

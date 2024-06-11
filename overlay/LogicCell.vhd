@@ -29,6 +29,4 @@ begin
 	end process;
 	
 	Output <= ff_out when FF_enable = '1' else lut_result;
-	
---	Output <= Config(to_integer(unsigned(Inputs)));  -- This is the simple Logic cell without the FlipFlop
 end architecture;
