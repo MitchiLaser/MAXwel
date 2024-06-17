@@ -1,0 +1,118 @@
+\section{Pinmap}
+
+To access the onboard LEDs, buttons and switches, knowing the connected GPIO pin of the FPGA is necessary.
+An overview about the accessories placed on the board is depicted in \cref{fig:floorplan_full}.
+This picture also numbered all of them for later identification where the corresponding pinmap is given in the subsequent sections.
+
+\begin{figure}[h!]
+    \centering
+    \input{./fig/Floorplan.pdf_tex}
+    \caption{Floorplan of the MAXwel with labeled peripheral devices.}
+    \label{fig:floorplan_full}
+\end{figure}
+
+\subsection{Power}
+The power supply is connected to the board via a barrel jack.
+A power button is placed next to the jack to turn the board on and off.
+To indicate the power state, a power LED is placed on the board that always lights when the board is powered.
+
+\subsection{Clocks}
+The board has two clock sources, a $\SI{50}{MHz}$ oscillator and a $\SI{14,7456}{MHz}$ oscillator.
+Both are connected to special GPIO pins that are dedicated for clock signals.
+These pins provide a low skew and jitter free clock signal and provide access to the internal global clock network of the FPGA.
+
+\begin{center}
+	\begin{tabular}{c c}
+		Clock & FPGA Pin \\
+		\hline
+		$\SI{50}{MHz}$ & PIN\_12 \\
+		$\SI{14.7456}{MHz}$ & PIN\_14 \\
+		\hline
+	\end{tabular}
+\end{center}
+
+\subsection{LEDs}
+The board has 16 LEDs, 8 green and 8 red, that can be controlled by the FPGA.
+To turn an LED on the corresponding pin has to be set to high.
+\todo[inline]{Add pinmap for LEDs.}
+
+\begin{center}
+	\begin{tabular}{c c c}
+		LED number & LED Green FPGA Pin & LED Red FPGA Pin \\
+		\hline
+		1 & PIN\_ & PIN\_ \\
+		2 & PIN\_ & PIN\_ \\
+		3 & PIN\_ & PIN\_ \\
+		4 & PIN\_ & PIN\_ \\
+		5 & PIN\_ & PIN\_ \\
+		6 & PIN\_ & PIN\_ \\
+		7 & PIN\_ & PIN\_ \\
+		8 & PIN\_ & PIN\_ \\
+		\hline
+	\end{tabular}
+\end{center}
+
+\subsection{Buttons and Switches}
+The board is equipped with 4 buttons and 8 switches.
+The buttons are debounced with a $\SI{8}{kHz}$ low pass filter and should drive the input pin to high when pressed.
+\todo[inline]{Add pinmap for buttons.}
+
+\begin{center}
+	\begin{tabular}{c c}
+		Button number & FPGA Pin \\
+		\hline
+		1 & PIN\_ \\
+		2 & PIN\_ \\
+		3 & PIN\_ \\
+		4 & PIN\_ \\
+		\hline
+	\end{tabular}
+\end{center}
+
+The switches are also debounced with a $\SI{8}{kHz}$ low pass filter and should drive the input pin to high when the switch is in the upper position.
+\todo[inline]{Add pinmap for switches and checn information about position.}
+
+\begin{center}
+	\begin{tabular}{c c}
+		Switch number & FPGA Pin \\
+		\hline
+		1 & PIN\_ \\
+		2 & PIN\_ \\
+		3 & PIN\_ \\
+		4 & PIN\_ \\
+		5 & PIN\_ \\
+		6 & PIN\_ \\
+		7 & PIN\_ \\
+		8 & PIN\_ \\
+		\hline
+	\end{tabular}
+\end{center}
+
+\subsection{Seven Segment Display}
+All 8 LEDs within the seven segment display are turned on by setting the corresponding pin to high.
+\todo[inline]{Add pinmap for seven segment display.}
+\todo[inline]{Add picture of corresponding LEDs in the seven segment display.}
+
+\begin{center}
+	\begin{tabular}{c c c c c}
+		Segment LED & Segment 1 & Segment 2 & Segment 3 & Segment 4 \\
+		\hline
+		A & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
+		B & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
+		C & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
+		D & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
+		E & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
+		F & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
+		G & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
+		DP & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
+		\hline
+	\end{tabular}
+\end{center}
+
+
+\subsection{External Pinheader}
+\todo[inline]{Add pinmap for external pinheader (picture).}
+
+\subsection{Programming header}
+\todo[inline]{Add pinmap for programming header (picture).}
+\todo[inline]{Add information about pull up and down resistors}

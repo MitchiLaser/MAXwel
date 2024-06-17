@@ -1,0 +1,31 @@
+\documentclass{include/documentclass}
+
+
+% some important information for the title page
+\subject{User Documentation}
+\title{MAXwel}
+\subtitle{MAX ii Workbench for Education and Learning}
+\author{Michael Hohenstein}
+\date{\today}
+
+
+\begin{document}
+	% title page
+	\titlepage{
+		\maketitle
+	}
+	\clearpage
+
+	% set page numbering to roman for the contents list
+	\pagenumbering{roman}
+	\tableofcontents
+	\listoftodos
+	\clearpage
+
+	% reset page counter so the first chapter is on page 1
+	\pagenumbering{arabic}
+	\setcounter{page}{1}
+
+	% main content
+	\include{./chap/hardware/chapter.tex}
+\end{document}
