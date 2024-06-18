@@ -11,7 +11,7 @@ entity LogicCell is
 		Inputs : in std_logic_vector(NUM_INPUTS-1 downto 0);
 		Config : in std_logic_vector(2**NUM_INPUTS-1 downto 0);
 		FF_enable : in std_logic;
-		FF_clock : in std_logic;
+		Clock : in std_logic;
 		Output : out std_logic
 	);
 end entity;
@@ -21,9 +21,9 @@ architecture bhv of LogicCell is
 begin
 	lut_result <= Config(to_integer(unsigned(Inputs)));
 		
-	process (FF_clock) is
+	process (Clock) is
 	begin
-		if rising_edge(FF_clock) then
+		if rising_edge(Clock) then
 			ff_out <= lut_result;
 		end if;
 	end process;

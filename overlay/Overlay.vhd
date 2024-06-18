@@ -26,7 +26,7 @@ begin
 			Inputs => Button(1 downto 0),
 			Config => Switch(3 downto 0),
 			FF_enable => Switch(4),
-			FF_clock => clock,
+			Clock => clock,
 			Output => lc1_out
 		);
 
