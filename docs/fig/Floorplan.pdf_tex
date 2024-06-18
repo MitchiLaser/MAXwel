@@ -100,5 +100,6 @@
     \put(0.82157313,0.89534989){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
     \put(0.56809683,0.33479786){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Clock 50MHz\end{tabular}}}}%
     \put(0.54577446,0.56461134){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Clock 14.7456MHz\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Floorplan.pdf}}%
   \end{picture}%
 \endgroup%

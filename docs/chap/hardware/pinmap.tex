@@ -34,20 +34,19 @@ These pins provide a low skew and jitter free clock signal and provide access to
 \subsection{LEDs}
 The board has 16 LEDs, 8 green and 8 red, that can be controlled by the FPGA.
 To turn an LED on the corresponding pin has to be set to high.
-\todo[inline]{Add pinmap for LEDs.}
 
 \begin{center}
 	\begin{tabular}{c c c}
 		LED number & LED Green FPGA Pin & LED Red FPGA Pin \\
 		\hline
-		1 & PIN\_ & PIN\_ \\
-		2 & PIN\_ & PIN\_ \\
-		3 & PIN\_ & PIN\_ \\
-		4 & PIN\_ & PIN\_ \\
-		5 & PIN\_ & PIN\_ \\
-		6 & PIN\_ & PIN\_ \\
-		7 & PIN\_ & PIN\_ \\
-		8 & PIN\_ & PIN\_ \\
+		1 & PIN\_61 & PIN\_86 \\
+		2 & PIN\_58 & PIN\_85 \\
+		3 & PIN\_57 & PIN\_84 \\
+		4 & PIN\_56 & PIN\_51 \\
+		5 & PIN\_55 & PIN\_50 \\
+		6 & PIN\_54 & PIN\_49 \\
+		7 & PIN\_53 & PIN\_48 \\
+		8 & PIN\_52 & PIN\_47 \\
 		\hline
 	\end{tabular}
 \end{center}
@@ -55,64 +54,86 @@ To turn an LED on the corresponding pin has to be set to high.
 \subsection{Buttons and Switches}
 The board is equipped with 4 buttons and 8 switches.
 The buttons are debounced with a $\SI{8}{kHz}$ low pass filter and should drive the input pin to high when pressed.
-\todo[inline]{Add pinmap for buttons.}
 
 \begin{center}
 	\begin{tabular}{c c}
 		Button number & FPGA Pin \\
 		\hline
-		1 & PIN\_ \\
-		2 & PIN\_ \\
-		3 & PIN\_ \\
-		4 & PIN\_ \\
+		1 & PIN\_97 \\
+		2 & PIN\_98 \\
+		3 & PIN\_99 \\
+		4 & PIN\_100 \\
 		\hline
 	\end{tabular}
 \end{center}
 
 The switches are also debounced with a $\SI{8}{kHz}$ low pass filter and should drive the input pin to high when the switch is in the upper position.
-\todo[inline]{Add pinmap for switches and checn information about position.}
 
 \begin{center}
 	\begin{tabular}{c c}
 		Switch number & FPGA Pin \\
 		\hline
-		1 & PIN\_ \\
-		2 & PIN\_ \\
-		3 & PIN\_ \\
-		4 & PIN\_ \\
-		5 & PIN\_ \\
-		6 & PIN\_ \\
-		7 & PIN\_ \\
-		8 & PIN\_ \\
+		1 & PIN\_87 \\
+		2 & PIN\_88 \\
+		3 & PIN\_89 \\
+		4 & PIN\_90 \\
+		5 & PIN\_91 \\
+		6 & PIN\_92 \\
+		7 & PIN\_95 \\
+		8 & PIN\_96 \\
 		\hline
 	\end{tabular}
 \end{center}
 
 \subsection{Seven Segment Display}
-All 8 LEDs within the seven segment display are turned on by setting the corresponding pin to high.
-\todo[inline]{Add pinmap for seven segment display.}
-\todo[inline]{Add picture of corresponding LEDs in the seven segment display.}
+The MAXwel is equipped with a four digit seven segment display.
+The seven segment displays have a common anode: to turn on a segment the corresponding pin has to be set to high.
+The labels for the segments are depicted in \cref{fig:seven_segment_display}.
+
+\begin{figure}[h!]
+    \centering
+    \input{./fig/sevensegment.pdf_tex}
+    \caption{Seven segment display with labeled segments.}
+    \label{fig:seven_segment_display}
+\end{figure}
 
 \begin{center}
 	\begin{tabular}{c c c c c}
-		Segment LED & Segment 1 & Segment 2 & Segment 3 & Segment 4 \\
+		Segment Name & Segment 1 & Segment 2 & Segment 3 & Segment 4 \\
 		\hline
-		A & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
-		B & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
-		C & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
-		D & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
-		E & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
-		F & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
-		G & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
-		DP & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
+		A & PIN\_40 & PIN\_30 & PIN\_18 & PIN\_4 \\
+		B & PIN\_41 & PIN\_33 & PIN\_19 & PIN\_5 \\
+		C & PIN\_42 & PIN\_34 & PIN\_20 & PIN\_6 \\
+		D & PIN\_37 & PIN\_27 & PIN\_15 & PIN\_1 \\
+		E & PIN\_38 & PIN\_28 & PIN\_16 & PIN\_2 \\
+		F & PIN\_39 & PIN\_29 & PIN\_17 & PIN\_3 \\
+		G & PIN\_44 & PIN\_36 & PIN\_26 & PIN\_8 \\
+		DP & PIN\_43 & PIN\_35 & PIN\_21 & PIN\_7 \\
 		\hline
 	\end{tabular}
 \end{center}
 
+\subsection{External pin header}
+The orientation of the external pin header is determined by the reference triangle.
+All Pins on the pin header are connected directly to the GPIO pins of the FPGA so take care when connecting external devices to the board.
+Do not exceed the voltage range of $\SI{0}{V}$ to $\SI{3.3}{V}$ and do not draw too much current from the pins.
+The pin header is depicted in \cref{fig:external_pin_header}.
 
-\subsection{External Pinheader}
-\todo[inline]{Add pinmap for external pinheader (picture).}
+\begin{figure}[h!]
+    \centering
+    \input{./fig/Pinheader.pdf_tex}
+    \caption{External pin header with labeled pins.}
+    \label{fig:external_pin_header}
+\end{figure}
 
 \subsection{Programming header}
-\todo[inline]{Add pinmap for programming header (picture).}
-\todo[inline]{Add information about pull up and down resistors}
+The programming header is used to program the FPGA with a JTAG programmer.
+The pinout of the programming header is depicted in \cref{fig:programming_header}.
+The \textit{TCK} pin is connected to a $\SI{10}{k\Omega}$ pull down resistor and the \textit{TDI}, \textit{TMS} and \textit{TDO} pins are connected to a $\SI{10}{k\Omega}$ pull up resistor.
+
+\begin{figure}[h!]
+    \centering
+    \input{./fig/Progheader.pdf_tex}
+    \caption{Programming header with labeled pins.}
+    \label{fig:programming_header}
+\end{figure}
