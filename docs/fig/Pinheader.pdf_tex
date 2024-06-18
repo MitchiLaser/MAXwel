@@ -63,7 +63,7 @@
     \put(0.73578762,0.48119743){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_67\end{tabular}}}}%
     \put(0.73578762,0.40235408){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_66\end{tabular}}}}%
     \put(0.73578762,0.3235106){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_64\end{tabular}}}}%
-    \put(0.73578762,0.2446674){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN_62\end{tabular}}}}%
+    \put(0.73578762,0.2446674){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_62\end{tabular}}}}%
     \put(0.73578761,0.16582427){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+3V3\end{tabular}}}}%
     \put(0.73578762,0.08698065){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+5V (Vin)\end{tabular}}}}%
     \put(0.16504327,0.95425603){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_74\end{tabular}}}}%
