@@ -73,9 +73,7 @@ fp-info-cache
 *.done
 *.eqn
 *.hex
-*.html
 *.jdi
-*.jpg
 # *.mif
 *.pin
 *.pof

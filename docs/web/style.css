@@ -1,0 +1,148 @@
+:root{
+    --transition-time: 0.1s;
+    --light-blue: #1e88e5;
+    --dark-blue: #0d47a1;
+}
+html,
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    text-decoration-line: none;
+}
+main{
+    flex: 1 1 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 1300px;
+}
+header,
+footer{
+    flex: 0 0 auto;
+    background-color: var(--light-blue);
+    color: #fff;
+
+}
+header{
+    border-bottom: solid 1px var(--dark-blue);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+header h1{
+    color: inherit;
+    font-weight: inherit;
+    margin: 0;
+    font-size: 5rem;
+    padding-top: 0.5rem;
+    cursor: default;
+}
+nav{
+    padding: 0 0 10px 0;
+}
+nav ul{
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0.5rem 0;
+}
+nav ul li{
+    font-size: 1.5rem;
+    float: left;
+    margin: 0 10px 0 0;
+    padding: 0 10px 0 0;
+    border-right: solid 1px var(--dark-blue);
+}
+nav ul li:last-child{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+/* Header and footer link animation */
+nav ul li a,
+footer a{
+    color: #fff;
+    transition: background-color var(--transition-time) ease-in;
+    transition: color var(--transition-time) ease-in;
+}
+nav ul li a:hover,
+footer a:hover{
+    background-color: #fff;
+    color: var(--dark-blue);
+    transition: background-color var(--transition-time) ease-in;
+    transition: color var(--transition-time) ease-in;
+    border-radius: 3px;
+}
+/* Header link list */
+nav ul li a{
+    padding: 5px;
+}
+/* Footer links */
+footer{
+    font-size: 20px;
+    border-top: solid 1px var(--dark-blue);
+    padding: 5px 5%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer p{
+    display: inline;
+    padding: 0;
+    margin: 0;
+    line-height: 30px;
+}
+footer a{
+    padding: 0 5px;
+    margin: 0;
+}
+article p{
+    color: #000;
+    font-size: 1.1rem;
+    line-height: 1.5em;
+}
+article a{
+    color: #263238;;
+}
+h1{
+    color: var(--light-blue);
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+article ul li{
+    font-size: 1.1rem;
+    line-height: 2em;
+}
+article ul li a{
+    color: #000 !important;
+}
+@media screen and (max-width: 750px)
+{
+    header h1{
+        text-align: center;
+    }
+    nav{
+        padding: 0;
+    }
+    nav ul li,
+    nav ul li:last-child{
+        clear: both;
+        display: block;
+        margin: 0;
+        padding: 0.2em;
+        border: none;
+        border-bottom: dotted 1px var(--dark-blue);
+        width: calc(100% - 2 * 0.2em);
+        text-align: center;
+    }
+    nav ul li a{
+        display: block;
+    }
+}

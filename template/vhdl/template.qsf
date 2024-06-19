@@ -121,3 +121,4 @@ set_location_assignment PIN_1 -to Segment4[3]
 set_location_assignment PIN_6 -to Segment4[2]
 set_location_assignment PIN_5 -to Segment4[1]
 set_location_assignment PIN_4 -to Segment4[0]
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
