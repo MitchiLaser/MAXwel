@@ -5,3 +5,4 @@ pdf: $(shell find . -type f -name '*.tex')
 
 clean: main.pdf
 	latexmk -c
+	-rm -f main.synctex.gz main.tdo
