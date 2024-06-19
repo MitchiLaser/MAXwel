@@ -103,25 +103,19 @@ footer a{
     padding: 0 5px;
     margin: 0;
 }
-article p{
+article p,
+article ul li{
     color: #000;
     font-size: 1.1rem;
-    line-height: 1.5em;
+    line-height: 1.5rem;
 }
 article a{
-    color: #263238;;
+    color: var(--dark-blue);
 }
 h1{
     color: var(--light-blue);
     margin: 1rem 0;
     font-size: 1.5rem;
-}
-article ul li{
-    font-size: 1.1rem;
-    line-height: 2em;
-}
-article ul li a{
-    color: #000 !important;
 }
 @media screen and (max-width: 750px)
 {
