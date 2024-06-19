@@ -18,7 +18,7 @@ All schematics and PCB files are available in the `hardware` directory.
 
 ## Documentation and project template
 
-[The user documentation is available in the `docs` directory](docs/main.pdf) and on the landing page (comming soon).
+[The user documentation is available in the `docs` directory](docs/main.pdf) and on the [landing page](https://mitchilaser.github.io/MAXwel/).
 
 A [template for an empty VHDL project](template/vhdl) with correct pin assignments is available [in the `template` directory](template/).
 All templates are intended to be used with the [Quartus](https://fpgasoftware.intel.com/) software from Intel.
