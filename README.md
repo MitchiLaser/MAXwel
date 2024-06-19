@@ -20,7 +20,8 @@ All schematics and PCB files are available in the `hardware` directory.
 
 [The user documentation is available in the `docs` directory](docs/main.pdf) and on the landing page (comming soon).
 
-A template for an empty project with correct pin assignments is comming soon!
+A template for an empty VHDL project with correct pin assignments is available [in the `template` directory](template/).
+This template is intended to be used with the [Quartus](https://fpgasoftware.intel.com/) software from Intel.
 
 ## What else?
 
