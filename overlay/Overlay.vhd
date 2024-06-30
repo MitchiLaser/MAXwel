@@ -6,8 +6,7 @@ use LC.SerialLC;
 
 entity Overlay is
 	generic(
-		Group_Size : positive := 4;  -- Number of LCs per group
-		Num_Groups : positive := 2  -- Number of LC grpuos
+		Num_LC : positive := 4  -- Number of LCs for the Ring
 	);
 	port(
 		-- User I/O of the MAXwel board
@@ -24,72 +23,60 @@ end entity;
 architecture bhv of Overlay is
 
 	-- define the signals for the serial shift register chain (LCs)
-	-- array (Groups) of std_logic_vector(Group)
-	type t_ser_bridge is array(Num_Groups-1 downto 0) of std_logic_vector(Group_Size downto 0);  -- one more because the output of the last one needs to be assigned to the next one in the chain
-	signal ser_bridge_lc : t_ser_bridge;
+	signal ser_bridge_lc : std_logic_vector(Num_LC downto 0);  -- one more because the output of the last one needs to be assigned to the next one in the chain
 
-	-- inputs: 2d array (Group of LCs) of std_logic_vectors(2 inputs)
-	type t_inputs is array(Num_Groups-1 downto 0, Group_Size-1 downto 0) of std_logic_vector(1 downto 0);
+	-- inputs: array of std_logic_vectors(2 inputs)
+	type t_inputs is array(Num_LC-1 downto 0) of std_logic_vector(1 downto 0);
 	signal lc_inputs : t_inputs;
 	
 	-- clocks for the FFs in the LCs
-	type t_ff_clock is array(Num_Groups-1 downto 0) of std_logic_vector(Group_Size-1 downto 0);
-	signal ff_clock : t_ff_clock;
+	signal ff_clock : std_logic_vector(Num_LC-1 downto 0);
 	
-	-- outputs of the LCs: 1D array (Groups) of std_logic_vectors (whole Group).
-	type t_outputs is array(Num_Groups-1 downto 0) of std_logic_vector(Group_Size downto 0);
-	signal lc_output : t_outputs; -- one more because of the "previous" chain, output 0 does not exists but needs to be assigned
+	-- outputs of the LCs
+	signal lc_output : std_logic_vector(Num_LC-1 downto 0);
 
 begin
 
-	-- generate the array of Logic Cells (LC)
-	LC_ALL : for i in 0 to Num_Groups-1 generate  -- generate all groups
+	-- generate the Logic Cells (LC)
+	LC_Group	: for i in 0 to Num_LC-1 generate
 	begin
-		LC_Group	: for j in 0 to Group_Size-1 generate  -- generate the LCs inside a Group
-		begin
-		
-			-- create first cell in group without 'previous'
-			First_Cell : if j = 0 generate 
-				First : LC.SerialLC
-					generic map(NUM_INPUTS => 2)
-					port map(
-						Inputs => lc_inputs(i,j),
-						Previous => '0',  -- previous not existing
-						FF_Clock => ff_clock(i)(j),
-						Output => lc_output(i)(j),
-						serin => ser_bridge_lc(i)(j),
-						serclk => serclk,
-						serout => ser_bridge_lc(i)(j+1)
-					);
-			end generate;
-				
-			-- create all other cells in group with 'previous'
-			Following_Cell : if j /= 0 generate
-				Following : LC.SerialLC
-					generic map(NUM_INPUTS => 2)
-					port map(
-						Inputs => lc_inputs(i,j),
-						Previous => lc_output(i)(j-1),  -- previous from following LUT
-						FF_Clock => ff_clock(i)(j),
-						Output => lc_output(i)(j),
-						serin => ser_bridge_lc(i)(j),
-						serclk => serclk,
-						serout => ser_bridge_lc(i)(j+1)
-					);
-			end generate;
-			
-			-- connect the serout from the last of a group to the serin from the first of a group
-			ser_fill : if i /= 0 generate
-				ser_bridge_lc(i)(0) <= ser_bridge_lc(i-1)(Group_Size);
-			end generate;
-			
+	
+		-- create first cell in group with special 'previous'
+		First_Cell : if i = 0 generate 
+			First : LC.SerialLC
+				generic map(NUM_INPUTS => 2)
+				port map(
+					Inputs => lc_inputs(i),
+					Previous => lc_output(Num_LC-1),  -- previous from last LC
+					FF_Clock => ff_clock(i),
+					Output => lc_output(i),
+					serin => ser_bridge_lc(i),
+					serclk => serclk,
+					serout => ser_bridge_lc(i+1)
+				);
 		end generate;
+			
+		-- create all other cells in group with regular 'previous' and 'next'
+		Normal_Cell : if i /= 0 generate
+			Normal : LC.SerialLC
+				generic map(NUM_INPUTS => 2)
+				port map(
+					Inputs => lc_inputs(i),
+					Previous => lc_output(i-1),  -- previous from previous LC
+					FF_Clock => ff_clock(i),
+					Output => lc_output(i),
+					serin => ser_bridge_lc(i),
+					serclk => serclk,
+					serout => ser_bridge_lc(i+1)
+				);
+		end generate;
+		
 	end generate;
 	
 	-- initialise the serial chain
-	ser_bridge_lc(0)(0) <= serin;
+	ser_bridge_lc(0) <= serin;
 	-- connect serial output -- TODO: update to the lastest link in the chain
-	serout <= ser_bridge_lc(Num_Groups-1)(Group_Size);
+	serout <= ser_bridge_lc(Num_LC);
 	
 	
 	-- TODO: Now define the switching network and also the i/o blocks (if needed?)
