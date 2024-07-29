@@ -17,5 +17,9 @@ end entity;
 architecture arch of template is
 
 begin
-
+	--LED_RED <= Switches;
+	--LED_Green <= Switches;
+	-- LED_Green(3 downto 0) <= Buttons;
+	
+	LED_Red(0) <= Switches(to_integer(unsigned(Buttons(1 downto 0))));
 end architecture;

@@ -10369,6 +10369,16 @@
 		)
 		(uuid "05ed6108-a1d2-4b44-a124-95c7b7e179ce")
 	)
+	(text "Wire network:\nlooks cursed but makes\nrouting more efficient"
+		(exclude_from_sim no)
+		(at 61.214 138.938 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "175ed83a-a970-4448-85c0-361d5bf31c8d")
+	)
 	(text "TODO: Prüfen, ob Prog. Header richtig angeschlossen\nPin 10 mit GND Verbidung richtig?"
 		(exclude_from_sim no)
 		(at 251.46 172.466 0)
