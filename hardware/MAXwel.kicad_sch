@@ -11047,6 +11047,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5155552"
+			(at 229.87 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6d05eb2e-59df-4b69-83e4-fecc2e81d384")
 		)
@@ -11383,6 +11392,15 @@
 			)
 		)
 		(property "Description" "Switch slide, single pole double throw"
+			(at 243.84 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5155552"
 			(at 243.84 153.67 0)
 			(effects
 				(font
@@ -11798,7 +11816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part-Nr" "XO53 50,00000"
+		(property "LCSC" "C387308"
 			(at 30.48 25.4 0)
 			(effects
 				(font
@@ -13319,7 +13337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part-Nr" "XO53 14,74560 "
+		(property "LCSC" "C7431374"
 			(at 30.48 48.26 0)
 			(effects
 				(font
@@ -14791,6 +14809,15 @@
 			)
 		)
 		(property "Description" "Switch slide, single pole double throw"
+			(at 256.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5155552"
 			(at 256.54 92.71 0)
 			(effects
 				(font
@@ -18754,6 +18781,15 @@
 			)
 		)
 		(property "Description" "Switch slide, single pole double throw"
+			(at 224.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5155552"
 			(at 224.79 92.71 0)
 			(effects
 				(font
@@ -23522,6 +23558,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5155552"
+			(at 248.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "08876eb1-26e0-4dc9-84b5-72f3ef032fa2")
 		)
@@ -25754,6 +25799,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5155552"
+			(at 266.7 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "02f98e0d-0e56-4709-bd52-3aee47d4bfd0")
 		)
@@ -26078,6 +26132,15 @@
 			)
 		)
 		(property "Description" "Switch slide, single pole double throw"
+			(at 261.62 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5155552"
 			(at 261.62 113.03 0)
 			(effects
 				(font
@@ -26487,6 +26550,15 @@
 			)
 		)
 		(property "Description" "Switch slide, single pole double throw"
+			(at 234.95 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5155552"
 			(at 234.95 135.89 0)
 			(effects
 				(font
