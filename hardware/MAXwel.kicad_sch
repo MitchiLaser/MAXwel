@@ -10379,16 +10379,6 @@
 		)
 		(uuid "175ed83a-a970-4448-85c0-361d5bf31c8d")
 	)
-	(text "TODO: Prüfen, ob Prog. Header richtig angeschlossen\nPin 10 mit GND Verbidung richtig?"
-		(exclude_from_sim no)
-		(at 251.46 172.466 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2340ffb6-e0be-4449-b239-7b676d6a84eb")
-	)
 	(text "Stabilize input voltage\nfor FPGA"
 		(exclude_from_sim no)
 		(at 164.084 19.304 0)
@@ -10428,16 +10418,6 @@
 			)
 		)
 		(uuid "5ce8c44f-b0ae-443a-8e17-d5b12aaf2253")
-	)
-	(text "TODO: Bauteil-Nummer und Footprint bei allen Kondensatoren in diesem Schaltplan"
-		(exclude_from_sim no)
-		(at 222.504 177.546 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6c9944c5-1239-493c-b841-ec3e244ce1ce")
 	)
 	(text "TCK Pulldown"
 		(exclude_from_sim no)

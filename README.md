@@ -2,9 +2,7 @@
 
 MAX ii Workbench for Education and Learning - MAXwel
 
-**This project is currently under heavy development.**
-
-The first version of the board was ordered a few days ago and is expected to arrive in the next few weeks (as of 2021-09-10) for testing and validation.
+**This project is currently under heavy development: A working prototype was already ordered but the documentation is outdated**
 
 MAXwel is a cheap and simple FPGA development board made for educational purposes.
 It is based in a low-cost Altera MAX ii Chip (EPM240), containing 240 logic elements, 8Kbits of RAM and 32Kbits of flash memory.
@@ -23,6 +21,18 @@ All schematics and PCB files are available in the `hardware` directory.
 A [template for an empty VHDL project](template/vhdl) with correct pin assignments is available [in the `template` directory](template/).
 The directory also contains a [template for a schematic based circuit design](template/schematic).
 All templates are intended to be used with the [Quartus](https://fpgasoftware.intel.com/) software from Intel.
+
+## TODO
+
+This is just my personal list of TODO-Notes on this project. Maybe there is something for you to do as well :)
+
+- update the docs (text + Landing-Page) to match the new pin-mapping
+- Add a reverse polarity protection to the board
+- Add holes to the board to attach a plexiglass cover
+- Update the template projects to match the new pin mapping and also add timing constraints for the clocks to the templates
+- Create a list with the information of which part was ordered where. This is important for future reference and also for the documentation
+- create some example projects and a "getting started" guide
+- write own GUI application to draw circuits and call Quartus in the background for synthesis and upload (alternatively finalise the overlay). This UI needs to be better than the Quartus Software.
 
 ## What else?
 
