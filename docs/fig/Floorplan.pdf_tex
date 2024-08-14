@@ -54,18 +54,18 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{Floorplan.pdf}}%
-    \put(0.45939255,0.45694032){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}MAX ii\end{tabular}}}}%
+    \put(0.32224631,0.45216751){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}MAX ii\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{Floorplan.pdf}}%
-    \put(0.04253001,0.74427807){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Programming\\Header\end{tabular}}}}}%
-    \put(0.29023488,0.82018881){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Power\\Plug\end{tabular}}}}}%
-    \put(0.04030766,0.41245866){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}External\\Pinheader\end{tabular}}}}}%
+    \put(0.93880596,0.72774162){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Programming\\Header\end{tabular}}}}}%
+    \put(0.18109423,0.8201889){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Power\\Plug\end{tabular}}}}}%
+    \put(0.04030766,0.38930759){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}External\\Pinheader\end{tabular}}}}}%
     \put(0.06730496,0.05557642){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Switches\end{tabular}}}}}%
-    \put(0.36926434,0.18319507){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}LEDs Green\end{tabular}}}}%
-    \put(0.25099232,0.55922503){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Power-LED\end{tabular}}}}%
-    \put(0.23070028,0.63926535){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Power-button\end{tabular}}}}%
-    \put(0.31071761,0.40400839){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}LEDs Red\end{tabular}}}}}%
+    \put(0.36926434,0.24934063){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}LEDs Green\end{tabular}}}}%
+    \put(0.24616072,0.59116294){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Power-LED\end{tabular}}}}%
+    \put(0.11755204,0.64546156){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Power-button\end{tabular}}}}%
+    \put(0.6081059,0.4577836){\color[rgb]{0.4,0.4,0.4}\rotatebox{-90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}LEDs Red\end{tabular}}}}}%
     \put(0.98151379,0.30194774){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Buttons\end{tabular}}}}}%
-    \put(0.93904123,0.74385731){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}7-Segment\end{tabular}}}}}%
+    \put(0.43705015,0.66719086){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}7-Segment\end{tabular}}}}%
     \put(0.14467874,0.00877674){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
     \put(0.21504303,0.00853422){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
     \put(0.28700803,0.00853422){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
@@ -74,32 +74,32 @@
     \put(0.50236951,0.00853422){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
     \put(0.57439514,0.00877674){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}7\end{tabular}}}}%
     \put(0.64621459,0.00853422){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}8\end{tabular}}}}%
-    \put(0.14467586,0.21391728){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
-    \put(0.21504015,0.21367476){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
-    \put(0.28700515,0.21367476){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
-    \put(0.3587155,0.21382029){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
-    \put(0.43052286,0.21391728){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
-    \put(0.50236663,0.21367476){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
-    \put(0.57439226,0.21391728){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}7\end{tabular}}}}%
-    \put(0.64621171,0.21367476){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}8\end{tabular}}}}%
-    \put(0.27625283,0.33373913){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}}%
-    \put(0.27637409,0.35668955){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}}%
-    \put(0.27625283,0.3812407){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}}%
-    \put(0.27630135,0.40553717){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}}%
-    \put(0.27613157,0.42993068){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}}%
-    \put(0.27625283,0.45436058){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}}%
-    \put(0.27625283,0.47897234){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}7\end{tabular}}}}}%
-    \put(0.27625283,0.50337796){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}8\end{tabular}}}}}%
+    \put(0.16121232,0.19407352){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0.23157661,0.193831){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0.30354161,0.193831){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0.37525196,0.19397653){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0.44705932,0.19407352){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0.51890308,0.193831){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0.59092872,0.19407352){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}7\end{tabular}}}}%
+    \put(0.66274817,0.193831){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}8\end{tabular}}}}%
+    \put(0.64257044,0.49828722){\color[rgb]{0.4,0.4,0.4}\rotatebox{-90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}}%
+    \put(0.64244918,0.47533681){\color[rgb]{0.4,0.4,0.4}\rotatebox{-90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}}%
+    \put(0.64257044,0.45078566){\color[rgb]{0.4,0.4,0.4}\rotatebox{-90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}}%
+    \put(0.64252192,0.42648918){\color[rgb]{0.4,0.4,0.4}\rotatebox{-90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}}%
+    \put(0.6426917,0.40209567){\color[rgb]{0.4,0.4,0.4}\rotatebox{-90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}}%
+    \put(0.64257044,0.37766578){\color[rgb]{0.4,0.4,0.4}\rotatebox{-90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}}%
+    \put(0.64257044,0.35305402){\color[rgb]{0.4,0.4,0.4}\rotatebox{-90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}7\end{tabular}}}}}%
+    \put(0.64257044,0.3286484){\color[rgb]{0.4,0.4,0.4}\rotatebox{-90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}8\end{tabular}}}}}%
     \put(0.94158784,0.11748308){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}}%
     \put(0.94183036,0.26299132){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}}%
     \put(0.94183036,0.40992478){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}}%
     \put(0.94168483,0.55214583){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}}%
-    \put(0.4273142,0.8953984){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
-    \put(0.55775157,0.89527713){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
-    \put(0.68978974,0.8953984){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
-    \put(0.82157313,0.89534989){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
-    \put(0.56809683,0.33479786){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Clock 50MHz\end{tabular}}}}%
-    \put(0.54577446,0.56461134){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Clock 14.7456MHz\end{tabular}}}}%
+    \put(0.30163712,0.90201298){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0.43207449,0.90189172){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0.56411266,0.90201298){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0.69589605,0.90196448){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0.32335727,0.30833964){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Clock 50MHz\end{tabular}}}}%
+    \put(0.54487829,0.57160251){\color[rgb]{0.4,0.4,0.4}\rotatebox{-90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Clock 14.7456MHz\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{Floorplan.pdf}}%
   \end{picture}%
 \endgroup%

@@ -54,30 +54,30 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{Pinheader.pdf}}%
-    \put(0.73578762,0.95425707){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_73\end{tabular}}}}%
-    \put(0.73578762,0.87541372){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_72\end{tabular}}}}%
-    \put(0.73578762,0.79657059){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_71\end{tabular}}}}%
-    \put(0.73578762,0.71772731){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_70\end{tabular}}}}%
-    \put(0.73578762,0.63888408){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_69\end{tabular}}}}%
-    \put(0.73578762,0.5600406){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_68\end{tabular}}}}%
-    \put(0.73578762,0.48119743){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_67\end{tabular}}}}%
-    \put(0.73578762,0.40235408){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_66\end{tabular}}}}%
-    \put(0.73578762,0.3235106){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_64\end{tabular}}}}%
-    \put(0.73578762,0.2446674){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_62\end{tabular}}}}%
-    \put(0.73578761,0.16582427){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+3V3\end{tabular}}}}%
-    \put(0.73578762,0.08698065){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+5V (Vin)\end{tabular}}}}%
-    \put(0.16504327,0.95425603){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_74\end{tabular}}}}%
-    \put(0.16504327,0.87541268){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_75\end{tabular}}}}%
-    \put(0.16504327,0.79656965){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_76\end{tabular}}}}%
-    \put(0.16504327,0.71772634){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_77\end{tabular}}}}%
-    \put(0.16504327,0.63888311){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_78\end{tabular}}}}%
-    \put(0.16504327,0.56003962){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_81\end{tabular}}}}%
-    \put(0.16504327,0.48119646){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_82\end{tabular}}}}%
-    \put(0.16504327,0.40235311){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_83\end{tabular}}}}%
-    \put(0.16504327,0.32350963){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}GND\end{tabular}}}}%
-    \put(0.16504327,0.24466643){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}GND\end{tabular}}}}%
-    \put(0.16504327,0.16582329){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}GND\end{tabular}}}}%
-    \put(0.16504327,0.08697954){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}GND\end{tabular}}}}%
+    \put(0.81275739,0.95425707){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_64\end{tabular}}}}%
+    \put(0.81275739,0.87541372){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_66\end{tabular}}}}%
+    \put(0.81275739,0.79657059){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_68\end{tabular}}}}%
+    \put(0.81275739,0.71772731){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_70\end{tabular}}}}%
+    \put(0.81275739,0.63888408){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_72\end{tabular}}}}%
+    \put(0.81275739,0.5600406){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_74\end{tabular}}}}%
+    \put(0.81275739,0.48119743){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_76\end{tabular}}}}%
+    \put(0.81275739,0.40235408){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_78\end{tabular}}}}%
+    \put(0.81275739,0.3235106){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_81\end{tabular}}}}%
+    \put(0.81275739,0.2446674){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_82\end{tabular}}}}%
+    \put(0.81275739,0.16582427){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_83\end{tabular}}}}%
+    \put(0.81275739,0.08698065){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_84\end{tabular}}}}%
+    \put(0.15542208,0.95425603){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+5V (Vin)\end{tabular}}}}%
+    \put(0.15542207,0.87541268){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+3V3\end{tabular}}}}%
+    \put(0.15542207,0.79656965){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_67\end{tabular}}}}%
+    \put(0.15542207,0.71772634){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_69\end{tabular}}}}%
+    \put(0.15542207,0.63888311){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_71\end{tabular}}}}%
+    \put(0.15542207,0.56003962){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_73\end{tabular}}}}%
+    \put(0.15542207,0.48119646){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_75\end{tabular}}}}%
+    \put(0.15542207,0.40235311){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIN\_77\end{tabular}}}}%
+    \put(0.19390689,0.32350963){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}GND\end{tabular}}}}%
+    \put(0.19390689,0.24466643){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}GND\end{tabular}}}}%
+    \put(0.19390689,0.16582329){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}GND\end{tabular}}}}%
+    \put(0.19390689,0.08697954){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}GND\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{Pinheader.pdf}}%
   \end{picture}%
 \endgroup%
