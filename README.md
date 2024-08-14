@@ -29,7 +29,7 @@ This is just my personal list of TODO-Notes on this project. Maybe there is some
 - update the docs (text + Landing-Page) to match the new pin-mapping
 - Add a reverse polarity protection to the board
 - Add holes to the board to attach a plexiglass cover
-- Update the template projects to match the new pin mapping and also add timing constraints for the clocks to the templates
+- Update the template projects to match the new pin mapping (7-Segments left)
 - Create a list with the information of which part was ordered where. This is important for future reference and also for the documentation
 - create some example projects and a "getting started" guide
 - write own GUI application to draw circuits and call Quartus in the background for synthesis and upload (alternatively finalise the overlay). This UI needs to be better than the Quartus Software.

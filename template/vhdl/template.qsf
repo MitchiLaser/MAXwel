@@ -104,3 +104,5 @@ set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Butto
 set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Buttons
 set_location_assignment PIN_14 -to Clock14
 set_location_assignment PIN_12 -to Clock50
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+set_global_assignment -name SDC_FILE template.sdc

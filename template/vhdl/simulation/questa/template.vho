@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition"
 
--- DATE "08/14/2024 17:26:08"
+-- DATE "08/14/2024 17:40:27"
 
 -- 
 -- Device: Altera EPM240T100C5 Package TQFP100
@@ -38,8 +38,8 @@ ENTITY 	template IS
 	Switches : IN std_logic_vector(7 DOWNTO 0);
 	Clock50 : IN std_logic;
 	Clock14 : IN std_logic;
-	LED_Red : OUT std_logic_vector(7 DOWNTO 0);
-	LED_Green : OUT std_logic_vector(7 DOWNTO 0);
+	LED_Red : BUFFER std_logic_vector(7 DOWNTO 0);
+	LED_Green : BUFFER std_logic_vector(7 DOWNTO 0);
 	Segment1 : IN std_logic_vector(7 DOWNTO 0);
 	Segment2 : IN std_logic_vector(7 DOWNTO 0);
 	Segment3 : IN std_logic_vector(7 DOWNTO 0);
