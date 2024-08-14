@@ -1,0 +1,75 @@
+\section{Components}
+
+This is a list of all the components on the circuit boards, their datasheets and a reference for part ordering.
+
+\cref{tab:components_circuit_board} shows the components that were ordered with the circuit board which can be done by selecting the "PCB assembly" options when ordering the circuit board. For this project the PCB assembly was done by \href{https://jlcpcb.com/}{JLCPCB} and all components were ordered from the same page but they are being supplied by \href{https://lcsc.com/}{LCSC}. After uploading the Gerber files\footnote{The Gerber files contain the manufacturing floorplan for the circuit board}, the BOM\footnote{BOM: Bill of Material, a list of all components on the circuit board} and the CPL\footnote{CPL: Centroid Pick List, a list of all components and their positions on the circuit board} files, the components can be selected from a table and added to or removed form the order. Components that were not identified directly can be selected form a list at this stage in the ordering process. All SMD components except the LEDs were ordered with the circuit board because they are too small for hand soldering (and it's not worth the time). The LEDs were ordered separately because they were not available at the time of ordering. Each THT component was removed from the order and soldered afterwards to keep the cost of the circuit board low.
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|p{\linewidth/3}|p{\linewidth/3}|p{\linewidth/3}|}
+		\hline
+		Component & Datasheet / Information & LCSC Component Number \\
+		\hline
+
+		MAX ii EPM240T100C5N & 
+		\makecell{\href{https://cdrdv2-public.intel.com/655094/max2_mii5v1.pdf}{MAX ii Device Handbook}, \\ \href{https://www.intel.de/content/www/de/de/products/sku/210264/max-ii-epm240-cpld/specifications.html}{EPM240 Device page}} & 
+		\href{https://www.lcsc.com/product-detail/Programmable-Logic-Device-CPLDs-FPGAs_Intel-Altera-EPM240T100C5N_C10041.html}{C10041} \\
+		\hline
+
+		AMS1117-3.3 & 
+		\makecell{\href{https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Advanced-Monolithic-Systems-AMS1117-3-3_C6186.pdf}{AMS1117 Datasheet}} &
+		\href{https://www.lcsc.com/product-detail/Voltage-Regulators-Linear-Low-Drop-Out-LDO-Regulators_Advanced-Monolithic-Systems-AMS1117-3-3_C6186.html}{C6186} \\
+		\hline
+
+		$\SI{50}{MHz}$ MHz Crystal Oszillator &
+		\makecell{\href{https://cdn-reichelt.de/documents/datenblatt/B400/XO53.pdf}{Datasheet}} &
+		\href{https://www.lcsc.com/product-detail/Crystal-Oscillators_Shenzhen-SCTF-Elec-S5D50-000000B20F30T_C387308.html}{C387308} \\
+		\hline
+
+		$\SI{14,7456}{MHz}$ MHz Crystal Oszillator &
+		\makecell{\href{https://cdn-reichelt.de/documents/datenblatt/B400/XO53.pdf}{Datasheet}} &
+		\href{https://www.lcsc.com/product-detail/Crystal-Oscillators_Shenzhen-SCTF-Elec-SX5M14-7456B10F20TNN_C7431374.html}{C7431374} \\
+		\hline
+
+		Capacitors and Resistors & &
+		The capacitors and resistors are standard components and are automatically added to the catalog without any component search involved. \\
+		\hline
+	\end{tabular}
+	\caption{All components ordered with the circuit board}
+	\label{tab:components_circuit_board}
+\end{table}
+
+All the other components were bought from another supplier and are listed in \cref{tab:components_other}. Some of these components were already available and were therefore not ordered. The source for them is still listed in the table.
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|p{\linewidth/3}|p{\linewidth/3}|p{\linewidth/3}|}
+		\hline
+		Component & Datasheet / Information & Component source\\
+		\hline
+		$\SI{100}{\mu{}F}$ Capacitors & $\SI{5}{mm}$ Diameter, $\SI{11}{mm}$ height, $\SI{2}{mm}$ pitch & \href{https://de.rs-online.com/web/p/aluminium-elektrolytkondensatoren/2286650}{RS-Component Number: 228-6650} \\
+		\hline
+		LEDs Red & SMD 0805 & \href{https://de.rs-online.com/web/p/leds/6920941}{RS-Component Number: 692-0941} \\
+		\hline
+		LEDs Green & SMD 0805 & \href{https://de.rs-online.com/web/p/leds/6920947}{RS-Component Number: 692-0947} \\
+		\hline
+		7-Segment Displays & & TODO! \\
+		\hline
+		Power Plug & & TODO! \\
+		\hline
+		$\SI{5}{V}$ Power Supply & & \href{https://de.rs-online.com/web/p/steckernetzteile/1217115}{RS-Component Number: 121-7115} \\
+		\hline
+		Programming Header & $\SI{2,54}{mm}$ JTAG 10-pin & Private Inventory, \href{https://www.amazon.de/dp/B00R1LS3QY}{Source} \\
+		\hline
+		Bush Buttons & $\SI{12}{mm} \times \SI{12}{mm} \times \SI{5}{mm}$ & Private Inventory, \href{https://de.aliexpress.com/item/32726177349.html}{Source} \\
+		\hline
+		Sliding Switch & SS12D10 & Private Inventory, \href{https://de.aliexpress.com/item/4001325159135.html}{Source} \\
+		\hline
+		Programming Adapter & Altera USB Blaster & Private Inventory, \href{https://de.aliexpress.com/item/1005006124817358.html}{Source} \\
+		\hline
+		Power LED & SMD 0805 & Private Inventory \\
+		\hline
+	\end{tabular}
+	\caption{All the other components soldered afterwards}
+	\label{tab:components_other}
+\end{table}

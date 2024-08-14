@@ -1,0 +1,19 @@
+\section{Installing the Toolchain}
+
+In order to use the FPGA Chip, the \href{https://www.intel.de/content/www/de/de/collections/products/fpga/software/downloads.html}{Quartus Prime Lite} Design-Software\footnote{Not to mix up with Quartus Prime Pro!} needs to be installed. For users of an Arch based Linux Distribution there is already a package for this available in the AUR.
+
+After downloading and starting the installation some additional parameters need to be specified. For Linux, \textit[/opt] is the preferred installation directory. Furthermore it is important that the Device files for the \textit{MAX ii} Chips is selected for installation. The rest of the installation process should be straight-forward.
+
+\subsection{Linux udev device rules}
+
+The JTAG Programming adapter, formally known as \glqq{}USB Blaster\grqq{}, is regularly only available with read and write permissions for the root user. To make the device available for a user without higher privileges the file \textbf{/etc/udev/rules.d/51-usbblaster.rules} needs to created with the following content:
+
+\begin{lstlisting}
+SUBSYSTEM=="usb", ATTR{idVendor}=="09fb", ATTR{idProduct}=="6001", MODE="0666"
+SUBSYSTEM=="usb", ATTR{idVendor}=="09fb", ATTR{idProduct}=="6002", MODE="0666"
+SUBSYSTEM=="usb", ATTR{idVendor}=="09fb", ATTR{idProduct}=="6003", MODE="0666"
+SUBSYSTEM=="usb", ATTR{idVendor}=="09fb", ATTR{idProduct}=="6010", MODE="0666"
+SUBSYSTEM=="usb", ATTR{idVendor}=="09fb", ATTR{idProduct}=="6810", MODE="0666"
+\end{lstlisting}
+
+After rebooting the operating system the changes are available for the udev device daemon.

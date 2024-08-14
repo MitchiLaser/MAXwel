@@ -35,6 +35,11 @@
 \graphicspath{{./fig/}}					% include images in the mentioned directory by filename not by relative path
 \usepackage{float}							% allow more precise positioning of figures
 
+% better table support
+\usepackage{makecell}
+
+% code listings
+\usepackage{listings}
 
 % hyperlink setup
 \usepackage[

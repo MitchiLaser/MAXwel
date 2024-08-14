@@ -1,0 +1,7 @@
+\section{Development}
+
+The hardware development was done using the \href{https://www.kicad.org/}{KiCAD} EDA software. There, the Circuit is first drawn as an abstract schematic diagram. Afterwards each component in the schematics needs a corresponding footprints assigned for the circuit board. These footprints are afterwards places on the circuit board editor and traces are routed between them, guided by the schematic diagram.
+
+For this project some custom schematic symbols and footprints were used which are locates in the project directory. The fabrication process was finalised using the \href{https://github.com/bennymeg/Fabrication-Toolkit}{Fabrication Toolkit Plugin}. Furthermore a Design Rule file from the circuit board manufacturer was placed in the project directory to make sure, the clearance between traces, vias an pads on the circuit board match the fabrication requirements.
+
+The main directory of this project contains the shell-script \textit{git\_filters.sh} to install some git filters for this repository to provide better git integration for the KiCAD files.
