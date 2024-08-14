@@ -2,7 +2,7 @@
 
 MAX ii Workbench for Education and Learning - MAXwel
 
-**This project is currently under heavy development: A working prototype was already ordered but the documentation is outdated**
+**This project is currently under heavy development: A working prototype was already made but the documentation is not up to date with the current version**
 
 MAXwel is a cheap and simple FPGA development board made for educational purposes.
 It is based in a low-cost Altera MAX ii Chip (EPM240), containing 240 logic elements, 8Kbits of RAM and 32Kbits of flash memory.
