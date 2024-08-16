@@ -40,6 +40,16 @@
 
 % code listings
 \usepackage{listings}
+\lstset
+{
+	basicstyle=\footnotesize,
+	numbers=left,
+	stepnumber=1,
+	showstringspaces=false,
+	tabsize=1,
+	breaklines=true,
+	breakatwhitespace=false,
+}
 
 % hyperlink setup
 \usepackage[

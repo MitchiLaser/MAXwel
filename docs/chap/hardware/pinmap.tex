@@ -32,12 +32,12 @@ These pins provide a low skew and jitter free clock signal and provide access to
 \end{center}
 
 \subsection{LEDs}
-The board has 16 LEDs, 8 green and 8 red, that can be controlled by the FPGA.
+The board has 16 LEDs, divided into two rows (namely A and B) of 8 LEDs each, that can be controlled by the FPGA.
 To turn an LED on the corresponding pin has to be set to high.
 
 \begin{center}
 	\begin{tabular}{c c c}
-		LED number & LED Green FPGA Pin & LED Red FPGA Pin \\
+		LED number & LED A FPGA Pin & LED B FPGA Pin \\
 		\hline
 		1 & PIN\_86 & PIN\_18 \\
 		2 & PIN\_88 & PIN\_17 \\
@@ -101,14 +101,14 @@ The labels for the segments are depicted in \cref{fig:seven_segment_display}.
 	\begin{tabular}{c c c c c}
 		Segment Name & Segment 1 & Segment 2 & Segment 3 & Segment 4 \\
 		\hline
-		A & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
-		B & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
-		C & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
-		D & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
-		E & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
-		F & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
-		G & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
-		DP & PIN\_ & PIN\_ & PIN\_ & PIN\_ \\
+		A & PIN\_56 & PIN\_48 & PIN\_38 & PIN\_28 \\
+		B & PIN\_54 & PIN\_44 & PIN\_36 & PIN\_26 \\
+		C & PIN\_55 & PIN\_47 & PIN\_37 & PIN\_27 \\
+		D & PIN\_58 & PIN\_50 & PIN\_40 & PIN\_30 \\
+		E & PIN\_62 & PIN\_52 & PIN\_42 & PIN\_34 \\
+		F & PIN\_57 & PIN\_49 & PIN\_39 & PIN\_29 \\
+		G & PIN\_61 & PIN\_51 & PIN\_41 & PIN\_33 \\
+		DP & PIN\_53 & PIN\_43 & PIN\_35 & PIN\_21 \\
 		\hline
 	\end{tabular}
 \end{center}

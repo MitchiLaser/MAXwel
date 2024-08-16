@@ -262,7 +262,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 984 112 1160 128)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_Green[0]" (rect 90 0 158 11)(font "Arial" ))
+	(text "LED_A[0]" (rect 90 0 158 11)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -279,7 +279,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 984 136 1160 152)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_Green[1]" (rect 90 0 157 12)(font "Intel Clear" ))
+	(text "LED_A[1]" (rect 90 0 157 12)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -296,7 +296,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 984 184 1160 200)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_Green[3]" (rect 90 0 157 12)(font "Intel Clear" ))
+	(text "LED_A[3]" (rect 90 0 157 12)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -313,7 +313,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 984 208 1160 224)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_Green[4]" (rect 90 0 157 12)(font "Intel Clear" ))
+	(text "LED_A[4]" (rect 90 0 157 12)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -330,7 +330,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 984 232 1160 248)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_Green[5]" (rect 90 0 157 12)(font "Intel Clear" ))
+	(text "LED_A[5]" (rect 90 0 157 12)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -347,7 +347,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 984 256 1160 272)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_Green[6]" (rect 90 0 157 12)(font "Intel Clear" ))
+	(text "LED_A[6]" (rect 90 0 157 12)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -364,7 +364,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 984 280 1160 296)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_Green[7]" (rect 90 0 157 12)(font "Intel Clear" ))
+	(text "LED_A[7]" (rect 90 0 157 12)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -381,7 +381,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 984 160 1160 176)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_Green[2]" (rect 90 0 157 12)(font "Intel Clear" ))
+	(text "LED_A[2]" (rect 90 0 157 12)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -398,7 +398,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 984 336 1160 352)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_Red[0]" (rect 90 0 147 11)(font "Arial" ))
+	(text "LED_B[0]" (rect 90 0 147 11)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -415,7 +415,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 984 360 1160 376)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_Red[1]" (rect 90 0 146 12)(font "Intel Clear" ))
+	(text "LED_B[1]" (rect 90 0 146 12)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -432,7 +432,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 984 384 1160 400)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_Red[2]" (rect 90 0 146 12)(font "Intel Clear" ))
+	(text "LED_B[2]" (rect 90 0 146 12)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -449,7 +449,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 984 408 1160 424)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_Red[3]" (rect 90 0 146 12)(font "Intel Clear" ))
+	(text "LED_B[3]" (rect 90 0 146 12)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -466,7 +466,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 984 432 1160 448)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_Red[4]" (rect 90 0 146 12)(font "Intel Clear" ))
+	(text "LED_B[4]" (rect 90 0 146 12)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -483,7 +483,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 984 456 1160 472)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_Red[5]" (rect 90 0 146 12)(font "Intel Clear" ))
+	(text "LED_B[5]" (rect 90 0 146 12)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -500,7 +500,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 984 480 1160 496)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_Red[6]" (rect 90 0 146 12)(font "Intel Clear" ))
+	(text "LED_B[6]" (rect 90 0 146 12)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -517,7 +517,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 984 504 1160 520)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_Red[7]" (rect 90 0 146 12)(font "Intel Clear" ))
+	(text "LED_B[7]" (rect 90 0 146 12)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))

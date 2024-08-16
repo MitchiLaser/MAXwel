@@ -60,10 +60,10 @@
     \put(0.18109423,0.8201889){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Power\\Plug\end{tabular}}}}}%
     \put(0.04030766,0.38930759){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}External\\Pinheader\end{tabular}}}}}%
     \put(0.06730496,0.05557642){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Switches\end{tabular}}}}}%
-    \put(0.36926434,0.24934063){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}LEDs Green\end{tabular}}}}%
+    \put(0.36926434,0.24934063){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}LED A\end{tabular}}}}%
     \put(0.24616072,0.59116294){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Power-LED\end{tabular}}}}%
     \put(0.11755204,0.64546156){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Power-button\end{tabular}}}}%
-    \put(0.6081059,0.4577836){\color[rgb]{0.4,0.4,0.4}\rotatebox{-90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}LEDs Red\end{tabular}}}}}%
+    \put(0.6081059,0.4577836){\color[rgb]{0.4,0.4,0.4}\rotatebox{-90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}LED B\end{tabular}}}}}%
     \put(0.98151379,0.30194774){\color[rgb]{0.4,0.4,0.4}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Buttons\end{tabular}}}}}%
     \put(0.43705015,0.66719086){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}7-Segment\end{tabular}}}}%
     \put(0.14467874,0.00877674){\color[rgb]{0.4,0.4,0.4}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%

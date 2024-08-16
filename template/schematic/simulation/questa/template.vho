@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition"
 
--- DATE "08/14/2024 17:30:48"
+-- DATE "08/16/2024 21:46:28"
 
 -- 
 -- Device: Altera EPM240T100C5 Package TQFP100
@@ -34,8 +34,8 @@ USE MAXII.MAXII_COMPONENTS.ALL;
 
 ENTITY 	template IS
     PORT (
-	LED_Green : OUT std_logic_vector(7 DOWNTO 0);
-	LED_Red : OUT std_logic_vector(7 DOWNTO 0);
+	LED_A : OUT std_logic_vector(7 DOWNTO 0);
+	LED_B : OUT std_logic_vector(7 DOWNTO 0);
 	Segment1 : OUT std_logic_vector(7 DOWNTO 0);
 	Segment2 : OUT std_logic_vector(7 DOWNTO 0);
 	Segment3 : OUT std_logic_vector(7 DOWNTO 0);
@@ -60,8 +60,8 @@ SIGNAL devpor : std_logic := '1';
 SIGNAL ww_devoe : std_logic;
 SIGNAL ww_devclrn : std_logic;
 SIGNAL ww_devpor : std_logic;
-SIGNAL ww_LED_Green : std_logic_vector(7 DOWNTO 0);
-SIGNAL ww_LED_Red : std_logic_vector(7 DOWNTO 0);
+SIGNAL ww_LED_A : std_logic_vector(7 DOWNTO 0);
+SIGNAL ww_LED_B : std_logic_vector(7 DOWNTO 0);
 SIGNAL ww_Segment1 : std_logic_vector(7 DOWNTO 0);
 SIGNAL ww_Segment2 : std_logic_vector(7 DOWNTO 0);
 SIGNAL ww_Segment3 : std_logic_vector(7 DOWNTO 0);
@@ -73,8 +73,8 @@ SIGNAL ww_Switches : std_logic_vector(7 DOWNTO 0);
 
 BEGIN
 
-LED_Green <= ww_LED_Green;
-LED_Red <= ww_LED_Red;
+LED_A <= ww_LED_A;
+LED_B <= ww_LED_B;
 Segment1 <= ww_Segment1;
 Segment2 <= ww_Segment2;
 Segment3 <= ww_Segment3;
@@ -87,8 +87,8 @@ ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
 
--- Location: PIN_86,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
-\LED_Green[7]~I\ : maxii_io
+-- Location: PIN_2,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+\LED_A[7]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
 	operation_mode => "output")
@@ -96,65 +96,10 @@ GENERIC MAP (
 PORT MAP (
 	datain => GND,
 	oe => VCC,
-	padio => ww_LED_Green(7));
-
--- Location: PIN_88,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
-\LED_Green[6]~I\ : maxii_io
--- pragma translate_off
-GENERIC MAP (
-	operation_mode => "output")
--- pragma translate_on
-PORT MAP (
-	datain => GND,
-	oe => VCC,
-	padio => ww_LED_Green(6));
-
--- Location: PIN_90,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
-\LED_Green[5]~I\ : maxii_io
--- pragma translate_off
-GENERIC MAP (
-	operation_mode => "output")
--- pragma translate_on
-PORT MAP (
-	datain => GND,
-	oe => VCC,
-	padio => ww_LED_Green(5));
-
--- Location: PIN_92,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
-\LED_Green[4]~I\ : maxii_io
--- pragma translate_off
-GENERIC MAP (
-	operation_mode => "output")
--- pragma translate_on
-PORT MAP (
-	datain => GND,
-	oe => VCC,
-	padio => ww_LED_Green(4));
-
--- Location: PIN_96,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
-\LED_Green[3]~I\ : maxii_io
--- pragma translate_off
-GENERIC MAP (
-	operation_mode => "output")
--- pragma translate_on
-PORT MAP (
-	datain => GND,
-	oe => VCC,
-	padio => ww_LED_Green(3));
-
--- Location: PIN_98,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
-\LED_Green[2]~I\ : maxii_io
--- pragma translate_off
-GENERIC MAP (
-	operation_mode => "output")
--- pragma translate_on
-PORT MAP (
-	datain => GND,
-	oe => VCC,
-	padio => ww_LED_Green(2));
+	padio => ww_LED_A(7));
 
 -- Location: PIN_100,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
-\LED_Green[1]~I\ : maxii_io
+\LED_A[6]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
 	operation_mode => "output")
@@ -162,10 +107,10 @@ GENERIC MAP (
 PORT MAP (
 	datain => GND,
 	oe => VCC,
-	padio => ww_LED_Green(1));
+	padio => ww_LED_A(6));
 
--- Location: PIN_2,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
-\LED_Green[0]~I\ : maxii_io
+-- Location: PIN_98,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+\LED_A[5]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
 	operation_mode => "output")
@@ -173,10 +118,65 @@ GENERIC MAP (
 PORT MAP (
 	datain => GND,
 	oe => VCC,
-	padio => ww_LED_Green(0));
+	padio => ww_LED_A(5));
+
+-- Location: PIN_96,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+\LED_A[4]~I\ : maxii_io
+-- pragma translate_off
+GENERIC MAP (
+	operation_mode => "output")
+-- pragma translate_on
+PORT MAP (
+	datain => GND,
+	oe => VCC,
+	padio => ww_LED_A(4));
+
+-- Location: PIN_92,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+\LED_A[3]~I\ : maxii_io
+-- pragma translate_off
+GENERIC MAP (
+	operation_mode => "output")
+-- pragma translate_on
+PORT MAP (
+	datain => GND,
+	oe => VCC,
+	padio => ww_LED_A(3));
+
+-- Location: PIN_90,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+\LED_A[2]~I\ : maxii_io
+-- pragma translate_off
+GENERIC MAP (
+	operation_mode => "output")
+-- pragma translate_on
+PORT MAP (
+	datain => GND,
+	oe => VCC,
+	padio => ww_LED_A(2));
+
+-- Location: PIN_88,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+\LED_A[1]~I\ : maxii_io
+-- pragma translate_off
+GENERIC MAP (
+	operation_mode => "output")
+-- pragma translate_on
+PORT MAP (
+	datain => GND,
+	oe => VCC,
+	padio => ww_LED_A(1));
+
+-- Location: PIN_86,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+\LED_A[0]~I\ : maxii_io
+-- pragma translate_off
+GENERIC MAP (
+	operation_mode => "output")
+-- pragma translate_on
+PORT MAP (
+	datain => GND,
+	oe => VCC,
+	padio => ww_LED_A(0));
 
 -- Location: PIN_5,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
-\LED_Red[7]~I\ : maxii_io
+\LED_B[7]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
 	operation_mode => "output")
@@ -184,10 +184,10 @@ GENERIC MAP (
 PORT MAP (
 	datain => GND,
 	oe => VCC,
-	padio => ww_LED_Red(7));
+	padio => ww_LED_B(7));
 
 -- Location: PIN_6,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
-\LED_Red[6]~I\ : maxii_io
+\LED_B[6]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
 	operation_mode => "output")
@@ -195,10 +195,10 @@ GENERIC MAP (
 PORT MAP (
 	datain => GND,
 	oe => VCC,
-	padio => ww_LED_Red(6));
+	padio => ww_LED_B(6));
 
 -- Location: PIN_7,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
-\LED_Red[5]~I\ : maxii_io
+\LED_B[5]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
 	operation_mode => "output")
@@ -206,10 +206,10 @@ GENERIC MAP (
 PORT MAP (
 	datain => GND,
 	oe => VCC,
-	padio => ww_LED_Red(5));
+	padio => ww_LED_B(5));
 
 -- Location: PIN_8,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
-\LED_Red[4]~I\ : maxii_io
+\LED_B[4]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
 	operation_mode => "output")
@@ -217,10 +217,10 @@ GENERIC MAP (
 PORT MAP (
 	datain => GND,
 	oe => VCC,
-	padio => ww_LED_Red(4));
+	padio => ww_LED_B(4));
 
 -- Location: PIN_15,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
-\LED_Red[3]~I\ : maxii_io
+\LED_B[3]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
 	operation_mode => "output")
@@ -228,10 +228,10 @@ GENERIC MAP (
 PORT MAP (
 	datain => GND,
 	oe => VCC,
-	padio => ww_LED_Red(3));
+	padio => ww_LED_B(3));
 
 -- Location: PIN_16,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
-\LED_Red[2]~I\ : maxii_io
+\LED_B[2]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
 	operation_mode => "output")
@@ -239,10 +239,10 @@ GENERIC MAP (
 PORT MAP (
 	datain => GND,
 	oe => VCC,
-	padio => ww_LED_Red(2));
+	padio => ww_LED_B(2));
 
 -- Location: PIN_17,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
-\LED_Red[1]~I\ : maxii_io
+\LED_B[1]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
 	operation_mode => "output")
@@ -250,10 +250,10 @@ GENERIC MAP (
 PORT MAP (
 	datain => GND,
 	oe => VCC,
-	padio => ww_LED_Red(1));
+	padio => ww_LED_B(1));
 
 -- Location: PIN_18,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
-\LED_Red[0]~I\ : maxii_io
+\LED_B[0]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
 	operation_mode => "output")
@@ -261,9 +261,9 @@ GENERIC MAP (
 PORT MAP (
 	datain => GND,
 	oe => VCC,
-	padio => ww_LED_Red(0));
+	padio => ww_LED_B(0));
 
--- Location: PIN_50,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_53,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment1[7]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -274,7 +274,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment1(7));
 
--- Location: PIN_81,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_61,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment1[6]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -285,7 +285,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment1(6));
 
--- Location: PIN_77,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_57,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment1[5]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -296,7 +296,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment1(5));
 
--- Location: PIN_84,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_62,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment1[4]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -307,7 +307,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment1(4));
 
--- Location: PIN_26,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_58,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment1[3]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -318,7 +318,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment1(3));
 
--- Location: PIN_36,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_55,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment1[2]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -329,7 +329,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment1(2));
 
--- Location: PIN_34,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_54,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment1[1]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -340,7 +340,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment1(1));
 
--- Location: PIN_70,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_56,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment1[0]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -351,7 +351,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment1(0));
 
--- Location: PIN_82,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_43,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment2[7]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -373,7 +373,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment2(6));
 
--- Location: PIN_48,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_49,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment2[5]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -384,7 +384,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment2(5));
 
--- Location: PIN_30,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_52,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment2[4]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -395,7 +395,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment2(4));
 
--- Location: PIN_49,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_50,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment2[3]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -406,7 +406,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment2(3));
 
--- Location: PIN_75,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_47,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment2[2]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -417,7 +417,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment2(2));
 
--- Location: PIN_55,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_44,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment2[1]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -428,7 +428,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment2(1));
 
--- Location: PIN_39,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_48,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment2[0]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -439,7 +439,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment2(0));
 
--- Location: PIN_37,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_35,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment3[7]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -450,7 +450,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment3(7));
 
--- Location: PIN_66,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_41,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment3[6]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -461,7 +461,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment3(6));
 
--- Location: PIN_68,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_39,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment3[5]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -472,7 +472,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment3(5));
 
--- Location: PIN_56,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_42,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment3[4]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -483,7 +483,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment3(4));
 
--- Location: PIN_83,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_40,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment3[3]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -494,7 +494,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment3(3));
 
--- Location: PIN_69,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_37,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment3[2]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -505,7 +505,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment3(2));
 
--- Location: PIN_73,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_36,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment3[1]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -516,7 +516,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment3(1));
 
--- Location: PIN_57,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_38,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment3[0]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -527,7 +527,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment3(0));
 
--- Location: PIN_64,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_21,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment4[7]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -538,7 +538,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment4(7));
 
--- Location: PIN_61,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_33,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment4[6]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -549,7 +549,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment4(6));
 
--- Location: PIN_76,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_29,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment4[5]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -560,7 +560,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment4(5));
 
--- Location: PIN_35,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_34,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment4[4]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -571,7 +571,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment4(4));
 
--- Location: PIN_28,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_30,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment4[3]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -582,7 +582,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment4(3));
 
--- Location: PIN_53,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_27,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment4[2]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -593,7 +593,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment4(2));
 
--- Location: PIN_62,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_26,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment4[1]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -604,7 +604,7 @@ PORT MAP (
 	oe => VCC,
 	padio => ww_Segment4(1));
 
--- Location: PIN_67,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
+-- Location: PIN_28,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 8mA
 \Segment4[0]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -635,7 +635,7 @@ PORT MAP (
 	oe => GND,
 	padio => ww_Clock14);
 
--- Location: PIN_3,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
+-- Location: PIN_20,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
 \Buttons[3]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -645,7 +645,7 @@ PORT MAP (
 	oe => GND,
 	padio => ww_Buttons(3));
 
--- Location: PIN_4,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
+-- Location: PIN_19,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
 \Buttons[2]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -655,7 +655,7 @@ PORT MAP (
 	oe => GND,
 	padio => ww_Buttons(2));
 
--- Location: PIN_19,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
+-- Location: PIN_4,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
 \Buttons[1]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -665,7 +665,7 @@ PORT MAP (
 	oe => GND,
 	padio => ww_Buttons(1));
 
--- Location: PIN_20,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
+-- Location: PIN_3,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
 \Buttons[0]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -675,7 +675,7 @@ PORT MAP (
 	oe => GND,
 	padio => ww_Buttons(0));
 
--- Location: PIN_85,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
+-- Location: PIN_1,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
 \Switches[7]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -685,7 +685,7 @@ PORT MAP (
 	oe => GND,
 	padio => ww_Switches(7));
 
--- Location: PIN_87,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
+-- Location: PIN_99,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
 \Switches[6]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -695,7 +695,7 @@ PORT MAP (
 	oe => GND,
 	padio => ww_Switches(6));
 
--- Location: PIN_89,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
+-- Location: PIN_97,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
 \Switches[5]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -705,7 +705,7 @@ PORT MAP (
 	oe => GND,
 	padio => ww_Switches(5));
 
--- Location: PIN_91,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
+-- Location: PIN_95,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
 \Switches[4]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -715,7 +715,7 @@ PORT MAP (
 	oe => GND,
 	padio => ww_Switches(4));
 
--- Location: PIN_95,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
+-- Location: PIN_91,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
 \Switches[3]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -725,7 +725,7 @@ PORT MAP (
 	oe => GND,
 	padio => ww_Switches(3));
 
--- Location: PIN_97,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
+-- Location: PIN_89,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
 \Switches[2]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -735,7 +735,7 @@ PORT MAP (
 	oe => GND,
 	padio => ww_Switches(2));
 
--- Location: PIN_99,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
+-- Location: PIN_87,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
 \Switches[1]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (
@@ -745,7 +745,7 @@ PORT MAP (
 	oe => GND,
 	padio => ww_Switches(1));
 
--- Location: PIN_1,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
+-- Location: PIN_85,	 I/O Standard: 3.3V Schmitt Trigger Input,	 Current Strength: Default
 \Switches[0]~I\ : maxii_io
 -- pragma translate_off
 GENERIC MAP (

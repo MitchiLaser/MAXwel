@@ -25,7 +25,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.6621607"
-     inkscape:cx="337.21168"
+     inkscape:cx="337.51249"
      inkscape:cy="273.13845"
      inkscape:window-width="1920"
      inkscape:window-height="1163"
@@ -1345,7 +1345,7 @@
          style="text-align:center;text-anchor:middle;fill:#666666;stroke-width:0.264583"
          x="59.082294"
          y="110.1055"
-         id="tspan21-2-5-3">LEDs Green</tspan></text><text
+         id="tspan21-2-5-3">LED A</tspan></text><text
        xml:space="preserve"
        style="font-size:3.88056px;line-height:1.25;font-family:sans-serif;fill:#666666;stroke-width:0.264583"
        x="39.385715"
@@ -1376,7 +1376,7 @@
          style="text-align:center;text-anchor:middle;fill:#666666;stroke-width:0.264583"
          x="76.754623"
          y="-97.296944"
-         id="tspan21-2-5-3-0">LEDs Red</tspan></text><text
+         id="tspan21-2-5-3-0">LED B</tspan></text><text
        xml:space="preserve"
        style="font-size:3.88056px;line-height:1.25;font-family:sans-serif;fill:#666666;stroke-width:0.264583"
        x="-101.68836"
