@@ -89,7 +89,7 @@ fp-info-cache
 *.tcl
 *.txt # Explicitly add any text files used
 *~
-*example*
+#*example* # This was uncommented because it interferes with the examples directory
 *sopc_*
 # *.sdc # I want those timing files
 
