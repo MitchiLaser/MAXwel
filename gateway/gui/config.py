@@ -2,6 +2,7 @@ import tkinter as tk
 
 
 # this is a list of all the available menu options
+# 'separator' is a special keyword that creates a vertical line between menu items
 menu = [
     'openfile',
     'savefile',
@@ -56,3 +57,7 @@ def images():
         'joint': tk.PhotoImage(file='img/joint.gif').subsample(3, 3),
         'upload': tk.PhotoImage(file='img/upload.gif').subsample(3, 3),
     }
+
+actions = {
+
+}
