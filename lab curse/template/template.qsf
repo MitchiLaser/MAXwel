@@ -55,7 +55,6 @@ set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
-set_global_assignment -name VHDL_FILE template.vhd
 set_global_assignment -name ENABLE_OCT_DONE OFF
 set_global_assignment -name USE_CONFIGURATION_DEVICE ON
 set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
@@ -105,7 +104,6 @@ set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Butto
 set_location_assignment PIN_14 -to Clock14
 set_location_assignment PIN_12 -to Clock50
 set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
-set_global_assignment -name SDC_FILE template.sdc
 
 set_location_assignment PIN_53 -to Segment1[7]
 set_location_assignment PIN_61 -to Segment1[6]
@@ -139,3 +137,21 @@ set_location_assignment PIN_30 -to Segment4[3]
 set_location_assignment PIN_27 -to Segment4[2]
 set_location_assignment PIN_26 -to Segment4[1]
 set_location_assignment PIN_28 -to Segment4[0]
+
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "NO HEAT SINK WITH STILL AIR"
+set_global_assignment -name BDF_FILE template.bdf
+set_global_assignment -name BDF_FILE ClockDivider.bdf
+set_global_assignment -name BDF_FILE ../../../Paul/4BitSynchronzaehler.bdf
+set_global_assignment -name BDF_FILE ../../../Paul/SynchronerDezimalzaehler.bdf
+set_global_assignment -name BDF_FILE ../../../Paul/Inverter.bdf
+set_global_assignment -name BDF_FILE ../../../Paul/EXOR.bdf
+set_global_assignment -name BDF_FILE "../../../Paul/Addierer#.bdf"
+set_global_assignment -name BDF_FILE ../../../Paul/Subtrahierer.bdf
+set_global_assignment -name BDF_FILE ../../../Paul/RSFlipFlop.bdf
+set_global_assignment -name BDF_FILE ../../../Paul/RSTFlipFlop.bdf
+set_global_assignment -name BDF_FILE ../../../Paul/DFlipFlop.bdf
+set_global_assignment -name BDF_FILE ../../../Paul/JKMSFlipFlop.bdf
+set_global_assignment -name BDF_FILE ../../../Paul/Schieberegister.bdf
+set_global_assignment -name BDF_FILE ../../../Paul/Rotationsregister.bdf
+set_global_assignment -name BDF_FILE ../../../Paul/Asynchronzaehler.bdf
+set_global_assignment -name BDF_FILE ../../../Paul/AsynchronerDezimalzaehler.bdf
