@@ -2,6 +2,8 @@
 
 import tkinter as tk
 import gui.menubar as menubar
+import gui.components as components
+import gui.canvas as canvas
 
 
 class App(tk.Tk):
@@ -12,12 +14,16 @@ class App(tk.Tk):
         w, h = self.winfo_screenwidth(), self.winfo_screenheight()
         self.geometry(f'{w}x{h}')
 
+        # make the window resizeable
+        self.resizable(True, True)  # Width, Height
+
         # basic window configuration
         self.title('Gateway - Schematic Editor')
         self.configure(background='white')
 
-        # TODO: Initialize the window components
-        self.menubar = menubar.Menubar(self)
+        self.menubar = menubar.Menubar(self)  # meunbar on the top
+        self.components = components.Components(self)  # Components catalog on the left
+        self.canvas = canvas.canvas(self)  # Canvas filling up the rest of the window
 
         self.mainloop()
 

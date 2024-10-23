@@ -58,6 +58,12 @@ def images():
         'upload': tk.PhotoImage(file='img/upload.gif').subsample(3, 3),
     }
 
+
 actions = {
 
 }
+
+
+# this is the scaling factor for the components menu
+scale_components = 1 / 5
+components_border_width = 4  # in pixels

@@ -24,13 +24,13 @@ class Menubar(tk.Frame):
             else:
                 self.menu.append(
                     tk.Button(self,  # replace list entry with button object
-                        image=self.images[key],
-                        background=self['background'],
-                        borderwidth=0,
-                        highlightthickness=0,
-                        activebackground='white',
-                        relief=tk.FLAT,
-                        command=filedialog.askopenfile))
+                              image=self.images[key],
+                              background=self['background'],
+                              borderwidth=0,
+                              highlightthickness=0,
+                              activebackground='white',
+                              relief=tk.FLAT,
+                              command=filedialog.askopenfile))
                 tooltip.Tooltip(self.menu[-1], config.tooltips[key])  # add tooltip to button
                 self.menu[-1].pack(side=tk.LEFT)
 
