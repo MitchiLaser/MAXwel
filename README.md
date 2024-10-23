@@ -26,6 +26,11 @@ All templates are intended to be used with the [Quartus](https://fpgasoftware.in
 
 There are also some features for hardcore enthusiasts.
 
+### Quartus Patch for EU symbols
+
+The [Quartus](https://fpgasoftware.intel.com/) software only offers the logic symbols in the US style within the schematic editor.
+There is a patch that adds the EU style symbols to the location of the symbol library in order to use them in the quartus software.
+
 ### Overlay
 
 **This project is currently under heavy development.**
