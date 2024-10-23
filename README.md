@@ -26,10 +26,12 @@ All templates are intended to be used with the [Quartus](https://fpgasoftware.in
 
 There are also some features for hardcore enthusiasts.
 
-### Quartus Patch for EU symbols
+### Lab Curse
 
+My university use this FPGA board for a students lab curse. There is a directory containing the reference designs for the lab curse exercises.
+The lab curse exercises require the students to draw schematic diagrams int the quartus software within a predefined template file.
 The [Quartus](https://fpgasoftware.intel.com/) software only offers the logic symbols in the US style within the schematic editor.
-There is a patch that adds the EU style symbols to the location of the symbol library in order to use them in the quartus software.
+This directory also offers a patch that adds the EU style symbols to the location of the symbol library in order to use them in the quartus software.
 
 ### Overlay
 
