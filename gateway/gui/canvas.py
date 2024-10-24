@@ -10,10 +10,10 @@ class canvas(tk.Canvas):
                            parent,
                            bd=0,
                            highlightthickness=0,
-                           background="blue"  # TODO: Change
+                           background="white"  # TODO: Change
                            )
         self.pack(fill=tk.BOTH, expand=True)
-        self.bind("<Configure>", self._resize)
+        # self.bind("<Configure>", self._resize)  # TODO: This might be important when the canvas has some content
 
     def _resize(self, event):  # resize canvas when parent window is resized
         # self.config(width=event.width, height=event.height)  # TODO: Do i need this?
