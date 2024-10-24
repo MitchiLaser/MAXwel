@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 # this script copies the European logic symbols to the destination directory.
 # The Quartus software automatically detects them and makes them available.
