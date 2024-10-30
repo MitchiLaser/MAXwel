@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition"
 
--- DATE "10/14/2024 20:40:41"
+-- DATE "10/30/2024 23:38:36"
 
 -- 
 -- Device: Altera EPM240T100C5 Package TQFP100
