@@ -104,54 +104,6 @@ set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Butto
 set_location_assignment PIN_14 -to Clock14
 set_location_assignment PIN_12 -to Clock50
 set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
-
-set_location_assignment PIN_53 -to Segment1[7]
-set_location_assignment PIN_61 -to Segment1[6]
-set_location_assignment PIN_57 -to Segment1[5]
-set_location_assignment PIN_62 -to Segment1[4]
-set_location_assignment PIN_58 -to Segment1[3]
-set_location_assignment PIN_55 -to Segment1[2]
-set_location_assignment PIN_54 -to Segment1[1]
-set_location_assignment PIN_56 -to Segment1[0]
-set_location_assignment PIN_43 -to Segment2[7]
-set_location_assignment PIN_51 -to Segment2[6]
-set_location_assignment PIN_49 -to Segment2[5]
-set_location_assignment PIN_52 -to Segment2[4]
-set_location_assignment PIN_50 -to Segment2[3]
-set_location_assignment PIN_47 -to Segment2[2]
-set_location_assignment PIN_44 -to Segment2[1]
-set_location_assignment PIN_48 -to Segment2[0]
-set_location_assignment PIN_35 -to Segment3[7]
-set_location_assignment PIN_41 -to Segment3[6]
-set_location_assignment PIN_39 -to Segment3[5]
-set_location_assignment PIN_42 -to Segment3[4]
-set_location_assignment PIN_40 -to Segment3[3]
-set_location_assignment PIN_37 -to Segment3[2]
-set_location_assignment PIN_36 -to Segment3[1]
-set_location_assignment PIN_38 -to Segment3[0]
-set_location_assignment PIN_21 -to Segment4[7]
-set_location_assignment PIN_33 -to Segment4[6]
-set_location_assignment PIN_29 -to Segment4[5]
-set_location_assignment PIN_34 -to Segment4[4]
-set_location_assignment PIN_30 -to Segment4[3]
-set_location_assignment PIN_27 -to Segment4[2]
-set_location_assignment PIN_26 -to Segment4[1]
-set_location_assignment PIN_28 -to Segment4[0]
-
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "NO HEAT SINK WITH STILL AIR"
 set_global_assignment -name BDF_FILE template.bdf
 set_global_assignment -name BDF_FILE ClockDivider.bdf
-set_global_assignment -name BDF_FILE ../../../Paul/4BitSynchronzaehler.bdf
-set_global_assignment -name BDF_FILE ../../../Paul/SynchronerDezimalzaehler.bdf
-set_global_assignment -name BDF_FILE ../../../Paul/Inverter.bdf
-set_global_assignment -name BDF_FILE ../../../Paul/EXOR.bdf
-set_global_assignment -name BDF_FILE "../../../Paul/Addierer#.bdf"
-set_global_assignment -name BDF_FILE ../../../Paul/Subtrahierer.bdf
-set_global_assignment -name BDF_FILE ../../../Paul/RSFlipFlop.bdf
-set_global_assignment -name BDF_FILE ../../../Paul/RSTFlipFlop.bdf
-set_global_assignment -name BDF_FILE ../../../Paul/DFlipFlop.bdf
-set_global_assignment -name BDF_FILE ../../../Paul/JKMSFlipFlop.bdf
-set_global_assignment -name BDF_FILE ../../../Paul/Schieberegister.bdf
-set_global_assignment -name BDF_FILE ../../../Paul/Rotationsregister.bdf
-set_global_assignment -name BDF_FILE ../../../Paul/Asynchronzaehler.bdf
-set_global_assignment -name BDF_FILE ../../../Paul/AsynchronerDezimalzaehler.bdf
