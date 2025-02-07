@@ -112,3 +112,5 @@ set_global_assignment -name BDF_FILE symbols/JK_FF.bdf
 set_global_assignment -name BDF_FILE symbols/1MUX.bdf
 set_global_assignment -name BDF_FILE symbols/2MUX.bdf
 set_global_assignment -name BDF_FILE symbols/4SR.bdf
+set_global_assignment -name BDF_FILE symbols/HA.bdf
+set_global_assignment -name BDF_FILE symbols/FA.bdf

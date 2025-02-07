@@ -1,8 +1,8 @@
 // This file was created as a replacement for the 3-input nand gate in IEC 60617-12 representation
 (header "symbol" (version "1.1"))
 (symbol (rect 64 64 128 112)(text "NAND3"(rect 1 0 28 9)(font "Arial"(font_size 6))(invisible))(text "inst"(rect 3 37 18 49)(font "Arial")(invisible))
-	(port (pt 0 14)(input)(text "IN1"(rect 2 7 17 19)(font "Courier New"(bold))(invisible))(text "IN1"(rect 2 7 17 19)(font "Courier New"(bold))(invisible))
-		(line (pt 0 14)(pt 14 14)(line_width 1)))
+	(port (pt 0 16)(input)(text "IN1"(rect 2 7 17 19)(font "Courier New"(bold))(invisible))(text "IN1"(rect 2 7 17 19)(font "Courier New"(bold))(invisible))
+		(line (pt 0 16)(pt 14 16)(line_width 1)))
 	(port (pt 0 24)(input)(text "IN2"(rect 2 15 17 27)(font "Courier New"(bold))(invisible))(text "IN2"(rect 2 15 17 27)(font "Courier New"(bold))(invisible))
 		(line (pt 0 24)(pt 14 24)(line_width 1)))
 	(port (pt 0 32)(input)(text "IN3"(rect 2 23 17 35)(font "Courier New"(bold))(invisible))(text "IN3"(rect 2 23 17 35)(font "Courier New"(bold))(invisible))
