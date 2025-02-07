@@ -1,4 +1,4 @@
-// This file was created as a replacement for the 2-input and gate in IEC 60617-12 representation
+// This file was created as a replacement for the 2-input nand gate in IEC 60617-12 representation
 (header "symbol" (version "1.1"))
 (symbol (rect 64 64 128 112)(text "NAND2"(rect 1 0 22 9)(font "Arial"(font_size 6))(invisible))(text "inst"(rect 3 37 18 49)(font "Arial")(invisible))
 	(port (pt 0 16)(input)(text "IN1"(rect 2 7 17 19)(font "Courier New"(bold))(invisible))(text "IN1"(rect 2 7 17 19)(font "Courier New"(bold))(invisible))

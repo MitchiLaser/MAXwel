@@ -1,5 +1,5 @@
 # Lab Course
 
-This directory was designed to store the files for a lab course where the students are drawing schematic designs. There is a pre-defined template for the students and the results of the exercises are also available.
+The MAXwel Circuit board is used for a [Physics Lab Course at KIT](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Schaltlogik?ref_type=heads). Within this Lab course students explore the basics of digital electronics and learn how to design and implement digital circuits. To design the circuits the schematics editor within the Quartus Software is used.
 
-There is also a patch for the Quartus Software to make the European style logic symbols available within the list of project-specific symbols.
+This directory offers a predefined template for the students as well as reference designs for the exercises. It also ships european style logic symbols for the template.
