@@ -5,6 +5,12 @@
         <title>MAXwel FPGA dev board</title>
         <link href="web/style.css" type="text/css" rel="stylesheet">
         <meta name="viewport" content="initial-scale=2, maximum-scale=1">
+        <script>
+            window.addEventListener("load", (event) => {
+                const year = new Date().getFullYear();
+                document.getElementById("copyright").innerText = year > 2024 ? ` - ${year}` : "";
+            });
+        </script>
     </head>
     <body>
         <header>
@@ -59,7 +65,7 @@
             </article>
         </main>
         <footer>
-            <p>&copy; <a href="https://spice-space.de/navigation/ueber-michi/">Michael Hohenstein</a>- 2024</p>
+            <p>&copy; <a href="https://spice-space.de/navigation/ueber-michi/">Michael Hohenstein</a>, 2024<span id="copyright"></span></p>
             <p><a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" target="_blank">Privacy</a></p>
         </footer>
     </body>
