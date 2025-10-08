@@ -39,14 +39,14 @@ To turn an LED on the corresponding pin has to be set to high.
 	\begin{tabular}{c c c}
 		LED number & LED A FPGA Pin & LED B FPGA Pin \\
 		\hline
-		1 & PIN\_86 & PIN\_18 \\
-		2 & PIN\_88 & PIN\_17 \\
-		3 & PIN\_90 & PIN\_16 \\
-		4 & PIN\_92 & PIN\_15 \\
-		5 & PIN\_96 & PIN\_8 \\
-		6 & PIN\_98 & PIN\_7 \\
-		7 & PIN\_100 & PIN\_6 \\
-		8 & PIN\_2 & PIN\_5 \\
+		0 & PIN\_86 & PIN\_18 \\
+		1 & PIN\_88 & PIN\_17 \\
+		2 & PIN\_90 & PIN\_16 \\
+		3 & PIN\_92 & PIN\_15 \\
+		4 & PIN\_96 & PIN\_8 \\
+		5 & PIN\_98 & PIN\_7 \\
+		6 & PIN\_100 & PIN\_6 \\
+		7 & PIN\_2 & PIN\_5 \\
 		\hline
 	\end{tabular}
 \end{center}
@@ -59,10 +59,10 @@ The buttons are debounced with a $\SI{8}{kHz}$ low pass filter and should drive 
 	\begin{tabular}{c c}
 		Button number & FPGA Pin \\
 		\hline
-		1 & PIN\_3 \\
-		2 & PIN\_4 \\
-		3 & PIN\_19 \\
-		4 & PIN\_20 \\
+		0 & PIN\_3 \\
+		1 & PIN\_4 \\
+		2 & PIN\_19 \\
+		3 & PIN\_20 \\
 		\hline
 	\end{tabular}
 \end{center}
@@ -73,14 +73,14 @@ The switches are also debounced with a $\SI{8}{kHz}$ low pass filter and should 
 	\begin{tabular}{c c}
 		Switch number & FPGA Pin \\
 		\hline
-		1 & PIN\_85 \\
-		2 & PIN\_87 \\
-		3 & PIN\_89 \\
-		4 & PIN\_91 \\
-		5 & PIN\_95 \\
-		6 & PIN\_97 \\
-		7 & PIN\_99 \\
-		8 & PIN\_1 \\
+		0 & PIN\_85 \\
+		1 & PIN\_87 \\
+		2 & PIN\_89 \\
+		3 & PIN\_91 \\
+		4 & PIN\_95 \\
+		5 & PIN\_97 \\
+		6 & PIN\_99 \\
+		7 & PIN\_1 \\
 		\hline
 	\end{tabular}
 \end{center}
@@ -99,7 +99,7 @@ The labels for the segments are depicted in \cref{fig:seven_segment_display}.
 
 \begin{center}
 	\begin{tabular}{c c c c c}
-		Segment Name & Segment 1 & Segment 2 & Segment 3 & Segment 4 \\
+		Segment Name & Segment 0 & Segment 1 & Segment 2 & Segment 3 \\
 		\hline
 		A & PIN\_56 & PIN\_48 & PIN\_38 & PIN\_28 \\
 		B & PIN\_54 & PIN\_44 & PIN\_36 & PIN\_26 \\
