@@ -31,7 +31,7 @@ There are also some features for hardcore enthusiasts.
 My university uses this FPGA board for a students lab course. There is a directory containing the reference designs for the lab course exercises.
 The lab course exercises require the students to draw schematic diagrams in the Quartus software within a predefined template file.
 The [Quartus](https://fpgasoftware.intel.com/) software only offers the logic symbols in the US style within the schematic editor.
-This directory also offers a patch that adds the EU style symbols to the location of the symbol library in order to use them in the Quartus software.
+This directory also offers EU style symbols for the project symbol library of the Quartus software.
 
 ### Overlay
 
