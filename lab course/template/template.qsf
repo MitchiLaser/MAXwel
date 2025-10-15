@@ -106,6 +106,8 @@ set_location_assignment PIN_12 -to Clock50
 set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "NO HEAT SINK WITH STILL AIR"
 
+set_global_assignment -name BDF_FILE symbols/RST_FF.bdf
+set_global_assignment -name BDF_FILE symbols/RS_FF.bdf
 set_global_assignment -name BDF_FILE template.bdf
 set_global_assignment -name BDF_FILE ClockDivider.bdf
 set_global_assignment -name BDF_FILE symbols/JK_FF.bdf
