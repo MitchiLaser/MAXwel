@@ -56,7 +56,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect 24 88 192 104)
 	(text "INPUT" (rect 133 -1 161 8)(font "Arial" (font_size 6)))
-	(text "In 0" (rect 5 1 24 13)(font "Intel Clear" ))
+	(text "In0" (rect 5 1 22 13)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 92 12)(pt 117 12))
@@ -72,7 +72,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect 24 104 192 120)
 	(text "INPUT" (rect 133 -1 161 8)(font "Arial" (font_size 6)))
-	(text "In 1" (rect 5 1 24 13)(font "Intel Clear" ))
+	(text "In1" (rect 5 1 22 13)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 92 12)(pt 117 12))
@@ -88,7 +88,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect 24 184 192 200)
 	(text "INPUT" (rect 133 -1 161 8)(font "Arial" (font_size 6)))
-	(text "In 2" (rect 5 1 24 13)(font "Intel Clear" ))
+	(text "In2" (rect 5 1 22 13)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 92 12)(pt 117 12))
@@ -104,7 +104,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect 24 200 192 216)
 	(text "INPUT" (rect 133 -1 161 8)(font "Arial" (font_size 6)))
-	(text "In 3" (rect 5 1 24 13)(font "Intel Clear" ))
+	(text "In3" (rect 5 1 22 13)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 92 12)(pt 117 12))
